@@ -1,0 +1,17 @@
+#Wed Nov 19 09:00:07 CET 2025
+admin.description=Το MediaSite είναι μια αυτοματοποιημένη πλατφόρμα βίντεο για εγγραφή βίντεο, διαχείριση βίντεο και δημιουργία υποτίτλων. Η ενότητα MediaSite του Nuntius σάς επιτρέπει να ενσωματώνετε περιεχόμενο MediaSite ως Μεμονωμένη Παρουσίαση, Κανάλι ή Ενότητα σε μαθήματα. Περισσότερες πληροφορίες είναι διαθέσιμες στην τεκμηρίωση του MediaSite.
+admin.menu.title=MediaSite
+admin.menu.title.alt=$\:admin.menu.title
+admin.title=Ενσωμάτωση MediaSite
+administration.url=My MediaSite - Διεύθυνση URL διαχείρισης
+base.url=Διεύθυνση URL LTI
+edit.warning.global.login.disabled=Παρακαλώ παρέχετε έγκυρα διαπιστευτήρια για έναν διακομιστή MediaSite
+edit.warning.global.login.disabled.short=Τα διαπιστευτήρια λείπουν ή είναι ελλιπή
+edit.warning.module.id=Παρακαλώ παρέχετε ένα αναγνωριστικό ενότητας για ένα βίντεο ή κανάλι
+edit.warning.module.id.short=Δεν δόθηκε αναγνωριστικό ενότητας
+enterprise.key=Κλειδί LTI
+enterprise.secret=Μυστικό LTI
+global.login=Προρυθμισμένος διακομιστής
+server.name=Όνομα διακομιστή
+supress.data.transmission=Καταστολή της "Συμφωνίας μετάδοσης δεδομένων"
+username.property.key=Κλειδί ιδιότητας ονόματος χρήστη

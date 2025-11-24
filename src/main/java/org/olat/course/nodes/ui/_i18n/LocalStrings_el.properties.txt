@@ -1,0 +1,12 @@
+#Wed Nov 19 09:00:07 CET 2025
+admin.course.node.desc=Διαμορφώστε τις προεπιλεγμένες τιμές που εφαρμόζονται στα στοιχεία του μαθήματος κατά τη δημιουργία τους.
+admin.course.node.title=<i class\="o_icon o_CourseModule_icon"> </i> Προεπιλεγμένη διαμόρφωση στοιχείων μαθήματος
+admin.menu.title=Στοιχεία μαθήματος
+admin.menu.title.alt=Διαμόρφωση προεπιλογών στοιχείων μαθήματος
+course.node.defaults.edit=<i class\='o_icon o_icon_edit o_icon-lg'> </i> Επεξεργασία
+course.node.defaults.edit.config=Ρυθμίσεις {0}
+course.node.defaults.header.edit.config=Ρυθμίσεις
+course.node.defaults.header.element=Στοιχείο μαθήματος
+course.node.defaults.header.element.manual=Πληροφορίες
+course.node.defaults.header.fn.group=Λειτουργική ομάδα
+course.node.defaults.header.toggle=Ενεργοποιημένο

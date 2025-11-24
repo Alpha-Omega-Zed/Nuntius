@@ -1,0 +1,9 @@
+#Wed Nov 19 09:00:07 CET 2025
+condition.accessibility.title=Πρόσβαση
+guest.allowed=Πρόσβαση
+moderator.start.meeting=Έναρξη αίθουσας
+pane.tab.vcconfig=Ρυθμίσεις
+title_vc=BigBlueButton
+vc.access.label=Εξουσιοδότηση πρόσβασης
+vc.access.start=Μόνο οι συντονιστές μπορούν να ξεκινήσουν αυτήν την εικονική αίθουσα
+vc.options.label=Εξουσιοδότηση πρόσβασης

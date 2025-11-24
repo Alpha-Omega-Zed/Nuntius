@@ -1,0 +1,11 @@
+#Wed Nov 19 09:00:07 CET 2025
+olatmatheditor.desc=Εισαγωγή μαθηματικού τύπου
+olatmatheditor.empty.hint=Εισαγάγετε τον τύπο γραφικά ή σε LaTeX.
+olatmatheditor.empty.title=Δεν υπάρχει διαθέσιμος τύπος ακόμα.
+olatmatheditor.formulaTabTitle=Τύπος
+olatmatheditor.latexGroupHelpHint=Μπορείτε να εισαγάγετε τον τύπο είτε στον γραφικό επεξεργαστή είτε στον επεξεργαστή LaTeX.
+olatmatheditor.latexGroupHint=Υπόδειξη\: χρησιμοποιήστε τις μακροεντολές &bsol;lt και &bsol;gt αντί για &lt; και &gt;
+olatmatheditor.latexGroupTitle=LaTeX
+olatmatheditor.mathLiveTitle=Γραφικός επεξεργαστής
+olatmatheditor.previewGroupTitle=Προεπισκόπηση
+olatmatheditor.title=Επεξεργαστής τύπων

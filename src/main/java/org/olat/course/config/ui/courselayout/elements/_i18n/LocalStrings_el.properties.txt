@@ -1,0 +1,6 @@
+#Wed Nov 19 09:00:07 CET 2025
+element.title.header=Κεφαλίδες
+element.title.link=Σύνδεσμοι
+element.title.menu=Μενού
+element.title.text=Κείμενο
+element.title.toolbox=Εργαλειοθήκη

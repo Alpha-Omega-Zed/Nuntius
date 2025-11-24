@@ -1,0 +1,17 @@
+#Wed Nov 19 09:00:07 CET 2025
+button.change.feed=Αντικατάσταση Podcast
+button.choose.feed=Επιλογή Podcast
+button.create.feed=Επιλέξτε, δημιουργήστε ή εισαγάγετε ένα Podcast
+chosen.feed=Επιλεγμένο Podcast
+error.feed.deleted=Ο πόρος podcast διαγράφηκε.
+error.no.reference.long=Για το "{0}" πρέπει να επιλέξετε ένα podcast στην καρτέλα "Εκπαιδευτικό περιεχόμενο Podcast" εντός των ρυθμίσεων.
+error.no.reference.short=Δεν έχει επιλεγεί ακόμη podcast για το "{0}".
+error.repository.entry.missing=Το εκπαιδευτικό περιεχόμενο podcast που θέλετε να δείτε έχει ήδη διαγραφεί από τον φάκελο αποθήκευσης των εκπαιδευτικών πόρων.
+feed.comment.status=Αξιολόγηση
+feed.entries=Αναρτήσεις
+feed.rating.status=Σχόλια
+feed.url=URL
+form.title.choose.feed=Επιλογή podcast
+no.feed.resource.selected=Δεν έχει επιλεγεί ακόμη εκπαιδευτικός πόρος podcast.
+no.feed.resource.selected.text=Έχετε την επιλογή να επιλέξετε ένα υπάρχον podcast, να δημιουργήσετε ένα νέο podcast στο οποίο μπορείτε να δημιουργείτε και να προβάλλετε τα δικά σας επεισόδια, ή να ενσωματώσετε ένα εξωτερικό podcast μέσω ενός URL.
+pane.tab.feed=Εκπαιδευτικό περιεχόμενο Podcast

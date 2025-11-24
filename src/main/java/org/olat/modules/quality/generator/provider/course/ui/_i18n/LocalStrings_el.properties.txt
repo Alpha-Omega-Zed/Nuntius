@@ -1,0 +1,25 @@
+#Wed Nov 19 09:00:07 CET 2025
+config.days.of.week=Ημέρες της εβδομάδας
+config.due.date.days=Ημέρες μετά την ημερομηνία του μαθήματος
+config.due.date.days.help=Η ημερομηνία έναρξης της συλλογής δεδομένων υπολογίζεται από την ημερομηνία του μαθήματος και τις ημέρες που εισάγονται εδώ. Ο αριθμός των ημερών μπορεί να είναι και αρνητικός.
+config.duration=Διάρκεια της συλλογής δεδομένων (ώρες)
+config.educational.type.exclusion=Εξαίρεση μορφών υλοποίησης
+config.invitation.days=Πρόσκληση (ημέρες μετά την έναρξη συλλογής δεδομένων)
+config.reminder1.days=Υπενθύμιση 1 (ημέρες μετά την έναρξη συλλογής δεδομένων)
+config.reminder2.days=Υπενθύμιση 2 (ημέρες μετά την έναρξη συλλογής δεδομένων)
+config.roles=Ρόλοι συμμετεχόντων
+config.roles.coach=Εκπαιδευτής
+config.roles.owner=Ιδιοκτήτης
+config.roles.participant=Συμμετέχων
+config.start.time=Ώρα έναρξης
+config.title=Τίτλος της συλλογής δεδομένων
+config.title.help=Διαθέσιμες μεταβλητές\: {0}
+config.trigger.daily=Καθημερινά
+config.trigger.date.begin=Έναρξη μαθήματος
+config.trigger.date.end=Λήξη μαθήματος
+config.trigger.type=Έναυσμα έναρξης
+error.number.greater=$org.olat.modules.quality.ui\:error.number.greater
+error.number.lower=$org.olat.modules.quality.ui\:error.number.lower
+error.wrong.number=$org.olat.modules.quality.ui\:error.wrong.number
+generate.info=Εάν ενεργοποιήσετε τη γεννήτρια με αυτήν την ημερομηνία λήξης, θα δημιουργηθούν <b>{0}</b> νέες συλλογές δεδομένων.
+provider.display.name=Μάθημα

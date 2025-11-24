@@ -1,0 +1,21 @@
+#Wed Nov 19 09:00:07 CET 2025
+action.general=Επιλογή
+action.remove=Αφαίρεση
+action.waitinglist.move=Μεταφορά ως συμμετέχων
+add.searchuser=Ποιον χρήστη θέλετε να προσθέσετε στην ομάδα;
+msg.alreadyinwaiitinggroup=Ο χρήστης <b>{0}</b> είναι ήδη μέλος αυτής της ομάδας και συνεπώς δεν μπορεί να μεταφερθεί από τη λίστα αναμονής στη λίστα των συμμετεχόντων.
+msg.atleastone=Απαιτείται τουλάχιστον ένας χρήστης σε μια ομάδα.
+msg.isingroupanonymous=Δεν μπορείτε να προσθέσετε αυτόν τον επισκέπτη χρήστη. Όνομα χρήστη\: <b>{0}</b>
+msg.selectionempty=Δεν έχετε επιλέξει ακόμη κάποιον χρήστη.
+msg.subjectalreadyingroup=Ο χρήστης <b>{0}</b> είναι ήδη μέλος αυτής της ομάδας.
+msg.subjectsalreadyingroup=Οι ακόλουθοι χρήστες είναι ήδη μέλη αυτής της ομάδας και συνεπώς αφαιρέθηκαν από την επιλογή σας\: <b>{0}</b>
+overview.adduser=Προσθήκη χρήστη/ών
+overview.addusers=Εισαγωγή
+remove.text=Θέλετε πραγματικά να αφαιρέσετε τον/την <b>{0}</b> από την επιλεγμένη ομάδα;
+table.header.online=$org.olat.group.ui.main\:table.header.online
+table.header.remove=Ενέργεια
+table.header.waitinglist.move=Ενέργεια
+table.subject.action=Ενέργεια
+table.subject.addeddate=Ημερομηνία προσθήκης
+table.user.login=Όνομα χρήστη
+table.user.url=URL

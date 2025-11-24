@@ -1,0 +1,4 @@
+#Wed Nov 19 09:00:07 CET 2025
+absence.dates=Ημερομηνία
+absence.dates.separator=έως
+absence.restrict.resource=Περιορισμός στον πόρο

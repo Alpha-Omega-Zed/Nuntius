@@ -1,0 +1,70 @@
+#Wed Nov 19 09:00:07 CET 2025
+add.confirm.title=Επισκόπηση
+add.import.title=Αναζήτηση χρηστών
+add.relations=Προσθήκη νέας σχέσης
+add.roles.title=Ρόλοι
+authentication.extern=Εξωτερικές υπηρεσίες
+authentication.intern=Κωδικός πρόσβασης
+authentication.intern.info=Ο κωδικός πρόσβασής σας προστατεύει τον λογαριασμό σας στο Nuntius. Επιλέξτε έναν ισχυρό κωδικό πρόσβασης και χρησιμοποιήστε έναν ξεχωριστό κωδικό για κάθε λογαριασμό.
+change.authentication.settings=Αλλαγή επιπέδου ασφαλείας
+choose.level=Νέο επίπεδο ασφαλείας
+confirm.remove.relation.text.plural=Θέλετε πραγματικά να αφαιρέσετε <strong>{0} σχέσεις</strong>;
+confirm.remove.relation.text.singular=Θέλετε πραγματικά να αφαιρέσετε <strong>{0} σχέση</strong>;
+confirm.remove.relation.title=Αφαίρεση σχέσεων
+creation.date=Δημιουργήθηκε
+current.level=Τρέχον επίπεδο ασφαλείας
+error.password.noauth=$org.olat.user\:error.password.noauth
+external.providers.desc=Χρησιμοποιείτε την ακόλουθη ταυτοποίηση από παρόχους τρίτων. Για ερωτήσεις, παρακαλούμε στείλτε email στη διεύθυνση <a href\="mailto\:{0}">{0}</a>.
+external.providers.title=$\:authentication.extern
+form.addrelations=Ονόματα χρηστών, $org.olat.user.propertyhandlers\:table.name.email ή $org.olat.user.propertyhandlers\:table.name.institutionalUserIdentifier
+form.names.example=test01<br/>author02<br/>$org.olat.user.propertyhandlers\:import.example.institutionalUserIdentifier
+generate.recovery.keys=Δημιουργία νέου κλειδιού ανάκτησης
+import.relations=Εισαγωγή σχέσεων
+new.passkey.later.hint=Μπορείτε ακόμα να παραλείψετε αυτό το βήμα <strong>{0}</strong> φορές\!
+new.passkey.level2.hint=<strong>Η διαδικασία σύνδεσης άλλαξε σε "Κλειδί πρόσβασης (Passkey)"\!</strong><br>Για να συνεχίσετε να χρησιμοποιείτε το Nuntius, θα χρειαστείτε ένα προσωπικό Κλειδί πρόσβασης. Το Κλειδί πρόσβασης είναι μια επιλογή ταυτοποίησης που σας παρέχει έναν ασφαλή και εύκολο τρόπο σύνδεσης.
+new.passkey.level3.from.1.hint=<strong>Η διαδικασία σύνδεσης άλλαξε σε "Ταυτοποίηση δύο παραγόντων (2FA)"\!</strong><br>Για να συνεχίσετε να χρησιμοποιείτε το Nuntius, θα χρειαστείτε ένα προσωπικό κλειδί πρόσβασης (passkey) επιπλέον του κωδικού πρόσβασής σας. Το κλειδί πρόσβασης είναι μια επιλογή ταυτοποίησης που σας παρέχει έναν ασφαλή και εύκολο τρόπο σύνδεσης.<br>Τώρα πρέπει να συνδέεστε με τον κωδικό πρόσβασής σας και το κλειδί πρόσβασης.
+new.passkey.level3.from.2.hint=<strong>Η διαδικασία σύνδεσης άλλαξε σε "Ταυτοποίηση δύο παραγόντων (2FA)"\!</strong><br>Για να συνεχίσετε να χρησιμοποιείτε το Nuntius, χρειάζεστε έναν κωδικό πρόσβασης καθώς και το προσωπικό σας κλειδί πρόσβασης (passkey).<br>Τώρα πρέπει να συνδέεστε με τον κωδικό πρόσβασής σας και το κλειδί πρόσβασης.
+new.passkey.title=Σύνδεση με κλειδί πρόσβασης (passkey)
+new.password.level1.hint=<strong>Η διαδικασία σύνδεσης άλλαξε σε "Κωδικός πρόσβασης"\!</strong><br>Για να συνεχίσετε να χρησιμοποιείτε το Nuntius, θα χρειαστείτε έναν νέο κωδικό πρόσβασης.
+new.password.level3.from.2.hint=$\:new.passkey.level3.from.2.hint
+new.password.title=Ορισμός νέου κωδικού πρόσβασης
+password.successful=Ο κωδικός πρόσβασής σας στο Nuntius άλλαξε με επιτυχία.
+recovery.keys.info=Μπορείτε να χρησιμοποιήσετε τα κλειδιά ανάκτησης για να αποκτήσετε πρόσβαση στον λογαριασμό σας σε περίπτωση που χάσετε την πρόσβαση στη συσκευή σας.
+recovery.keys.title=Επιλογή ανάκτησης
+relation.roles=Ρόλοι
+relation.roles.description=Επιλέξτε μια σχέση ή μια αντί-σχέση.
+remove=Αφαίρεση
+security.level.change.level1=Αυξήστε την ασφάλεια του λογαριασμού σας μεταβαίνοντας στο <strong>$\:security.level.level2</strong> ή στο <strong>$\:security.level.level3</strong>.
+security.level.change.level2=Αυξήστε την ασφάλεια του λογαριασμού σας μεταβαίνοντας στο <strong>$\:security.level.level3</strong>. Μπορείτε επίσης να επιστρέψετε στο <strong>$\:security.level.level1</strong>.
+security.level.change.level2.to.level3=Αυξήστε την ασφάλεια του λογαριασμού σας μεταβαίνοντας στο <strong>$\:security.level.level3</strong>.
+security.level.change.level3=Μπορείτε να επιστρέψετε στο <strong>$\:security.level.level1</strong> ή στο <strong>$\:security.level.level2</strong>.
+security.level.change.level3.to.level2=Μπορείτε να επιστρέψετε στο <strong>$\:security.level.level2</strong>.
+security.level.level1=<span class\="o_authentication_level1">Επίπεδο 1 - Κωδικός πρόσβασης</span>
+security.level.level1.explain=Αυτή τη στιγμή μπορείτε να συνδεθείτε στο Nuntius με το όνομα χρήστη και τον κωδικό πρόσβασής σας.
+security.level.level1.fix=Κωδικός πρόσβασης
+security.level.level1.level2.option=Μπορείτε να συνδέεστε με Κλειδί πρόσβασης (Passkey) αντί για τον κωδικό πρόσβασης. Ο κωδικός πρόσβασής σας θα αφαιρεθεί.
+security.level.level1.level3.option=Εκτός από τον κωδικό πρόσβασής σας, χρειάζεστε επίσης ένα κλειδί πρόσβασης (passkey) για να συνδεθείτε (ταυτοποίηση δύο παραγόντων).
+security.level.level1.only=Κωδικός πρόσβασης
+security.level.level1.only.explain=$\:security.level.level1.explain
+security.level.level2=<span class\="o_authentication_level2">Επίπεδο 2 - Κλειδί πρόσβασης (Passkey)</span>
+security.level.level2.explain=Αυτή τη στιγμή μπορείτε να συνδεθείτε στο Nuntius με το όνομα χρήστη και το κλειδί πρόσβασής σας (passkey).
+security.level.level2.fix=Κλειδί πρόσβασης (Passkey)
+security.level.level2.level1.option=Μπορείτε να συνδέεστε με τον κωδικό πρόσβασης αντί για τα κλειδιά πρόσβασής σας (passkeys). Τα κλειδιά πρόσβασής σας θα αφαιρεθούν.
+security.level.level2.level3.option=Εκτός από τον κωδικό πρόσβασής σας, χρειάζεστε επίσης ένα κλειδί πρόσβασης (passkey) για να συνδεθείτε (ταυτοποίηση δύο παραγόντων).
+security.level.level3=<span class\="o_authentication_level3">Επίπεδο 3 - Κωδικός πρόσβασης & Κλειδί πρόσβασης (2FA)</span>
+security.level.level3.explain=Αυτή τη στιγμή μπορείτε να συνδεθείτε στο Nuntius με το όνομα χρήστη, τον κωδικό πρόσβασης και το κλειδί πρόσβασής σας (ταυτοποίηση δύο παραγόντων).
+security.level.level3.fix=Κωδικός πρόσβασης & Κλειδί πρόσβασης (2FA)
+security.level.level3.level1.option=Χρειάζεστε μόνο τον κωδικό πρόσβασης για να συνδεθείτε. Τα κλειδιά πρόσβασής σας θα αφαιρεθούν.
+security.level.level3.level2.option=Χρειάζεστε μόνο τα κλειδιά πρόσβασής σας για να συνδεθείτε. Ο κωδικός πρόσβασής σας θα αφαιρεθεί.
+security.level.none=Δεν υπάρχει διαθέσιμη τοπική ταυτοποίηση
+security.level.none.explain=
+security.level.none.level1.option=Μπορείτε να συνδεθείτε με τον κωδικό πρόσβασης.
+security.level.none.level2.option=Μπορείτε να συνδεθείτε με Κλειδί πρόσβασης (Passkey).
+security.level.none.level3.option=$\:security.level.level2.level3.option
+security.level.title=Η ασφάλειά σας\: {0}
+table.header.key=Αναγνωριστικό
+table.header.managed=<i class\='o_icon o_icon_managed'> </i>
+table.header.name=Όνομα
+table.header.role=Ρόλος
+table.header.username=Όνομα χρήστη
+warning.at.least.one.relation=Πρέπει να επιλέξετε τουλάχιστον μία σχέση.

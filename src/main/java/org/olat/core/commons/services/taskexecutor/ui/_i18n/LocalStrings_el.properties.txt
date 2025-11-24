@@ -1,0 +1,6 @@
+#Wed Nov 19 09:00:07 CET 2025
+done=Ολοκληρώθηκε
+edition=Επεξεργασμένο
+failed=Αποτυχία
+inWork=Σε εξέλιξη
+newTask=Σε αναμονή

@@ -1,0 +1,33 @@
+#Wed Nov 19 09:00:07 CET 2025
+course.design=Σχεδιασμός μαθήματος
+course.design.path=Με μαθησιακή διαδρομή
+course.design.path.desc=<div class\="o_course_design_desc"><ul><li>Μάθημα με πρόοδο μάθησης</li><li>Διαδοχική σειρά</li><li>Έλεγχος μέσω εξαιρέσεων</li></ul></div><small>Τύπος\: Μάθημα μαθησιακής διαδρομής</small>
+course.design.progress=Με πρόοδο μάθησης
+course.design.progress.desc=<div class\="o_course_design_desc"><ul><li>Μάθημα με πρόοδο μάθησης</li><li>Χωρίς σταθερή ακολουθία</li><li>Έλεγχος μέσω εξαιρέσεων</li></ul></div><small>Τύπος\: Μάθημα μαθησιακής διαδρομής</small>
+error.course.locked=Αυτό το μάθημα επεξεργάζεται ήδη από κάποιον άλλο. Αυτή η ρύθμιση δεν μπορεί να αλλάξει.
+error.positiv.int=$org.olat.course.learningpath.ui\:error.positiv.int
+migration.selection=Επιλογή σχεδιασμού μαθήματος
+no.access.condition.long={0}
+no.access.condition.short=Αυτό το στοιχείο του μαθήματος δεν είναι προσβάσιμο λόγω ενός κανόνα.
+no.access.course.node=Αυτό το στοιχείο του μαθήματος "{0}" δεν είναι προσβάσιμο λόγω ενός κανόνα.
+no.access.endDateInPast.long=Δεν είναι δυνατή η πρόσβαση σε αυτό το στοιχείο του μαθήματος, καθώς ήταν διαθέσιμο μόνο μέχρι {0}.
+no.access.endDateInPast.short=Το στοιχείο του μαθήματος δεν είναι πλέον διαθέσιμο.
+no.access.goto.node=Σύνδεσμος προς το στοιχείο του μαθήματος
+no.access.previousNotDone.long=Δεν είναι δυνατή η πρόσβαση σε αυτό το στοιχείο του μαθήματος, επειδή το προηγούμενο στοιχείο δεν έχει ακόμη ολοκληρωθεί.
+no.access.previousNotDone.short=Το προηγούμενο στοιχείο δεν έχει ακόμη ολοκληρωθεί.
+no.access.startDateInFuture.long=Δεν είναι δυνατή η πρόσβαση σε αυτό το στοιχείο του μαθήματος, επειδή καθίσταται διαθέσιμο στις {0}.
+no.access.startDateInFuture.short=Αυτό το στοιχείο του μαθήματος δεν είναι ακόμη διαθέσιμο.
+no.access.unknown.long=Δεν είναι δυνατή η πρόσβαση σε αυτό το στοιχείο του μαθήματος.
+no.access.unknown.short=$\:no.access.unknown.long
+settings.completion.type=Υπολογισμός προόδου μάθησης
+settings.completion.type.confirmation.duration=$org.olat.course.learningpath.ui\:config.duration
+settings.completion.type.confirmation.info=Θέλετε πραγματικά να υπολογίσετε την πρόοδο της μάθησης με βάση την εκτιμώμενη διάρκεια των επιμέρους στοιχείων του μαθήματος; Σε αυτήν την περίπτωση, ο χρόνος μάθησης πρέπει να οριστεί σε κάθε στοιχείο του μαθήματος. Εισαγάγετε εδώ μια αρχική τιμή, η οποία θα καταχωρηθεί για στοιχεία του μαθήματος χωρίς εκτιμώμενη διάρκεια.
+settings.completion.type.confirmation.title=Υπολογισμός προόδου μάθησης
+settings.completion.type.duration.mandatory=Σύμφωνα με την εκτιμώμενη διάρκεια των υποχρεωτικών στοιχείων του μαθήματος
+settings.completion.type.number.of.nodes.mandatory=Σύμφωνα με τον αριθμό των υποχρεωτικών στοιχείων του μαθήματος
+settings.convert=Μετατροπή σε μάθημα μαθησιακής διαδρομής
+settings.title=Πρόσβαση στα στοιχεία του μαθήματος
+settings.type=Τύπος
+unsupported.course.nodes.names=Μη υποστηριζόμενα στοιχεία μαθήματος
+unsupported.course.nodes.title=Μη υποστηριζόμενα στοιχεία μαθήματος
+unsupported.course.nodes.warning=Αυτό το μάθημα δεν μπορεί να μετατραπεί σε μάθημα μαθησιακής διαδρομής, επειδή δεν υποστηρίζονται όλα τα υπάρχοντα στοιχεία του μαθήματος.

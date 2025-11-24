@@ -1,0 +1,14 @@
+#Wed Nov 19 09:00:07 CET 2025
+error.url.not.valid=Η διεύθυνση URL δεν είναι έγκυρη
+external.site.default.title.missing=Ο τίτλος δεν πρέπει να είναι κενός για την προεπιλεγμένη γλώσσα "{0}".
+external.site.default.url.missing=Η διεύθυνση URL δεν πρέπει να είναι κενή για την προεπιλεγμένη γλώσσα "{0}".
+external.site.enable.iframe=iFrame
+external.site.enable.iframe.info=ενσωματωμένη προβολή (πρέπει να υποστηρίζεται από την ιστοσελίδα)
+external.site.height=Ύψος
+external.site.icon.css=Κλάση CSS
+external.site.iframe.not.supported=Αυτή η διεύθυνση URL δεν υποστηρίζει ενσωμάτωση iFrame.
+external.site.language=Γλώσσα
+external.site.title=Τίτλος
+external.site.title.missing=Ο τίτλος δεν πρέπει να είναι κενός εάν έχει οριστεί μια διεύθυνση URL.
+external.site.url=Διεύθυνση URL
+external.site.url.missing=Η διεύθυνση URL δεν πρέπει να είναι κενή εάν έχει οριστεί ένας τίτλος.

@@ -1,0 +1,26 @@
+#Wed Nov 19 09:00:07 CET 2025
+allow.guest.post=Επιτρέπεται η δημοσίευση από επισκέπτες
+allow.pseudonym.post=Επιτρέπονται οι δημοσιεύσεις με ψευδώνυμο
+anonymous.title=Ψευδώνυμο
+command.closefo=Κλείσιμο προβολής
+command.show=Εμφάνιση φόρουμ
+command.showpopup=Εμφάνιση φόρουμ σε νέο παράθυρο
+condition.accessModerator.title=Συντονισμός
+condition.accessPoster.title=Ανάγνωση και εγγραφή
+condition.accessReader.title=Μόνο για ανάγνωση
+display.config.fieldsettitle=Διαμόρφωση
+display.config.startPage=Με σελίδα καλωσορίσματος;
+display.config.startPage.false=Όχι, εμφάνιση περιεχομένου αμέσως.
+display.config.startPage.true=Ναι, εμφάνιση σελίδας καλωσορίσματος.
+edit.moderator=Συντονιστής
+edit.poster=Δημιουργία δημοσιεύσεων στο φόρουμ
+pane.tab.accessibility=Πρόσβαση
+pane.tab.config=Διαμόρφωση
+peekview.allItemsLink=Όλες οι συνεισφορές
+preview.canModerate=Ενεργοποιήθηκε ο συντονισμός συνεισφορών στο φόρουμ
+preview.canPost=Ενεργοποιήθηκε η συγγραφή συνεισφορών στο φόρουμ
+preview.canRead=Ενεργοποιήθηκε η ανάγνωση συνεισφορών στο φόρουμ
+preview.header=Δικαιώματα φόρουμ για προσομοιωμένο χρήστη
+pseudonym.default=Ενεργοποίηση ψευδωνύμου σε κάθε μήνυμα
+user.rights=Δικαιώματα χρήστη
+warn.forumdelete=Προειδοποίηση\: Όλες οι καταχωρήσεις θα διαγραφούν.

@@ -1,0 +1,16 @@
+#Wed Nov 19 09:00:07 CET 2025
+advanceOrder.creationDate=Ημερομηνία δημιουργίας
+advanceOrder.identitfier.key=Κλειδί
+advanceOrder.identitfier.value=Τιμή
+advanceOrder.method=Τύπος προσφοράς
+advanceOrder.status=Κατάσταση
+advanceOrder.status.canceled=Ακυρώθηκε
+advanceOrder.status.done=Ολοκληρώθηκε
+advanceOrder.status.pending=Ενεργό
+advanceOrder.statusModified=Η κατάσταση άλλαξε
+confirm.delete.advanceOrder=Θέλετε σίγουρα να διαγράψετε αυτήν την προκαταβολική παραγγελία;
+confirm.delete.advanceOrder.title=Διαγραφή προκαταβολικής παραγγελίας
+filter.all=Εμφάνιση όλων
+filter.pending=Ενεργό
+table.advanceOrder.delete=Διαγραφή
+table.advanceOrder.empty=Δεν υπάρχουν προκαταβολικές παραγγελίες προς εμφάνιση αυτήν τη στιγμή.

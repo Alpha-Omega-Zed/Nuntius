@@ -1,0 +1,32 @@
+#Wed Nov 19 09:00:07 CET 2025
+command.coachfolder=Αρχεία εκπαιδευτή
+command.coursefolder=Φάκελος αποθήκευσης
+command.documents=Έγγραφα (Εργαλειοθήκη)
+course.quota.desc=Εδώ μπορείτε να δείτε την κατά προσέγγιση χρήση μνήμης των πόρων αυτού του μαθήματος. Στον υπολογισμό περιλαμβάνονται μόνο τα αρχεία των αντίστοιχων πόρων. Γίνεται διάκριση μεταξύ των εσωτερικών πόρων (με και χωρίς όριο) και των κοινόχρηστων μαθησιακών πόρων (εξωτερικοί πόροι).
+course.quota.pf.former=(πρώην συμμετέχων)
+course.quota.title=Χρήση μνήμης πόρων
+filter.all=Όλα
+filter.external=Εξωτερικοί
+filter.internal.with.quota=Εσωτερικοί με όριο
+filter.internal.without.quota=Εσωτερικοί χωρίς όριο
+folder=Φάκελος
+metadata.total.external.size=Εξωτερικό μέγεθος
+metadata.total.internal.size=Εσωτερικό μέγεθος
+metadata.total.num.files=Αριθμός αρχείων
+metadata.total.size=Συνολικό μέγεθος
+pf.dropbox=Κουτί παράδοσης
+pf.returnbox=Κουτί επιστροφής
+qf.edit=Επεξεργασία ορίου
+table.column.display.rss=Εμφάνιση
+table.column.edit.quota=Επεξεργασία ορίου
+table.column.external.link=<i class\="o_icon o_icon_external_link"> </i>
+table.course.quota.empty=Ο πίνακας είναι προς το παρόν κενός.
+table.header.course.quota.display.rss=Προβολή
+table.header.course.quota.edit.quota=Προσαρμογή ορίου
+table.header.course.quota.external=Εξωτερικός
+table.header.course.quota.num.files=Αριθμός αρχείων
+table.header.course.quota.quota=Όριο
+table.header.course.quota.resource=Πόρος
+table.header.course.quota.size=Μέγεθος
+table.header.course.quota.type=Τύπος
+table.header.course.quota.used=Τρέχουσα χρήση

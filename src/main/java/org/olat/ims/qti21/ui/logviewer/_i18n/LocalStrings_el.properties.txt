@@ -1,0 +1,15 @@
+#Wed Nov 19 09:00:07 CET 2025
+filter.event.date=Χρονικό διάστημα
+filter.event.title=Τίτλος αντικειμένου
+filter.event.type=Τύπος συμβάντος
+kprim.minus=$org.olat.ims.qti21.ui\:kprim.minus
+kprim.plus=$org.olat.ims.qti21.ui\:kprim.plus
+table.header.date=Ημερομηνία
+table.header.event=Συμβάντα
+table.header.interactions.types=Τύπος ερωτήματος αξιολόγησης
+table.header.item.id=Αναγνωριστικό ερωτήματος αξιολόγησης
+table.header.item.title=Ερωτήματα αξιολόγησης
+table.header.min.max.score=Ελάχ. / μέγ. βαθμολογία
+table.header.response=Απάντηση
+table.header.response.ids=Αναγνωριστικό απάντησης
+table.header.score=Βαθμολογία

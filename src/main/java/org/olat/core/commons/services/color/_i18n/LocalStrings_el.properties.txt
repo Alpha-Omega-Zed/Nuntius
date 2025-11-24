@@ -1,0 +1,25 @@
+#Wed Nov 19 09:00:07 CET 2025
+color.blue=Μπλε
+color.bronze=Μπρούτζινο
+color.brown=Καφέ
+color.cobaltblue=Σκούρο μπλε
+color.darkblue=Μπλε του μεσονυχτίου
+color.fuchsia=Ματζέντα
+color.gold=Χρυσό
+color.green=Πράσινο
+color.grey=Γκρι
+color.lightblue=Μπλε
+color.lightgray=Γκρι
+color.lightgreen=Πράσινο
+color.lime=Λάιμ
+color.maroon=Καστανοκόκκινο
+color.navy=Ναυτικό μπλε
+color.olive=Λαδί
+color.orange=Πορτοκαλί
+color.orchid=Ματζέντα
+color.purple=Μωβ
+color.rebeccapurple=Μωβ
+color.red=Κόκκινο
+color.seagreen=Πράσινο του πεύκου
+color.silver=Ασημί
+color.yellow=Κίτρινο

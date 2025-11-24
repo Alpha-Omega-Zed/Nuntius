@@ -1,0 +1,30 @@
+#Wed Nov 19 09:00:07 CET 2025
+add.role=Προσθήκη νέου ρόλου
+admin.menu.title=Ρόλος χρήστη σε χρήστη
+admin.menu.title.alt=Ρόλος χρήστη σε χρήστη
+admin.title=Ρόλος χρήστη σε χρήστη
+confirm.delete.role.text=Θέλετε πραγματικά να διαγράψετε τον ρόλο "{0}";
+confirm.delete.role.title=Διαγραφή ρόλου
+edit.role=Επεξεργασία ρόλου "{0}"
+error.relation.role.deleted=Ο ρόλος διαγράφηκε από κάποιον άλλον στο μεταξύ.
+error.relation.role.in.use=Ο ρόλος "{0}" εξακολουθεί να χρησιμοποιείται και δεν είναι δυνατή η διαγραφή του.
+info.role.delete=Ο ρόλος "{0}" διαγράφηκε με επιτυχία.
+no.predefined.label=-
+not.translated=Χωρίς μετάφραση
+on=ενεργοποιημένο
+predefined.labels=Προκαθορισμένες ετικέτες
+relations.enable=Ρόλος χρήστη σε χρήστη
+role.identifier=Αναγνωριστικό
+role.line.manager=Προϊστάμενος
+role.name=Ρόλος
+role.rights=Δικαιώματα
+table.header.id=ID
+table.header.identifier=Αναγνωριστικό
+table.header.managed=<i class\='o_icon o_icon_managed'> </i>
+table.header.role=Ρόλος
+table.header.role.contra=Αντίθετος ρόλος
+table.header.role.contra.description=Αντίθετη περιγραφή
+table.header.role.description=Περιγραφή
+table.header.translate=<i class\='o_icon o_icon_language'> </i>
+translate=Μετάφραση
+translate.title=Μετάφραση ρόλου "{0}"

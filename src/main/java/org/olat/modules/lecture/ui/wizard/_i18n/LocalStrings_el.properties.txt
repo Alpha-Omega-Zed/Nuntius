@@ -1,0 +1,7 @@
+#Wed Nov 19 09:00:07 CET 2025
+table.user.login=Όνομα χρήστη
+user.confirm.title=Επιβεβαίωση
+user.search.title=Αναζήτηση χρήστη
+wizard.contact.title=Ενημέρωση
+wizard.lecture.title=Εκδηλώσεις / μαθήματα
+wizard.reason.title=Αιτιολογία

@@ -1,0 +1,23 @@
+#Wed Nov 19 09:00:07 CET 2025
+date.scope.additional.hint=Ορισμός χρονικού εύρους
+date.scope.additional.title=Προσαρμοσμένο
+date.scope.christmas.newyear=Χριστούγεννα / Πρωτοχρονιά
+date.scope.custom.predefined=Προκαθορισμένο
+date.scope.custom.range=Χρονικό εύρος
+date.scope.custom.reset=Επαναφορά
+date.scope.custom.separator=έως
+date.scope.custom.set=Εφαρμογή
+date.scope.dropdown={0}
+date.scope.last.month=Τελευταίος μήνας
+date.scope.last.month.hint={0} - χθες
+date.scope.last.months=Τελευταίοι {0} μήνες
+date.scope.next.month=1 μήνας
+date.scope.next.months={0} μήνες
+date.scope.next.week=1 εβδομάδα
+date.scope.next.weeks={0} εβδομάδες
+date.scope.range.hint={0} - {1}
+date.scope.to.end.month=Έως το τέλος του {0}
+date.scope.to.end.year=Έως το τέλος του {0}
+date.scope.today.and.upcoming=Σήμερα και προσεχώς
+error.date.to.befre.date.from=Η ημερομηνία έναρξης είναι μεταγενέστερη της ημερομηνίας λήξης
+error.outside.limit=Το χρονικό διάστημα πρέπει να είναι μεταξύ {0} και {1}

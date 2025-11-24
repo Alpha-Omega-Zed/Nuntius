@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+/* Add client fonts */
+@import "fonts/fonts";
+
+/* Use nuntius configuration to override defaults */
+@import "personalassistant_config";
+
+/* Add all default config and apply styles from light theme */
+@import "light/content";
+
+/* Override with nuntius customizations */
+@import "personalassistant_content";

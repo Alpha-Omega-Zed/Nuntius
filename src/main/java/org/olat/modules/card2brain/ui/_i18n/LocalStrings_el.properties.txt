@@ -1,0 +1,23 @@
+#Wed Nov 19 09:00:07 CET 2025
+admin.baseUrl=Διεύθυνση URL πόρου LTI
+admin.baseUrlHelpText=Χρησιμοποιήστε το '%s' ως σύμβολο κράτησης θέσης για το ψευδώνυμο των καρτών flash.
+admin.description=Το card2brain είναι η εφαρμογή πολλαπλών καναλιών για μεθοδική εκμάθηση σε όλους τους τομείς σπουδών. Στο card2brain, μπορείτε να δημιουργήσετε κάρτες flash και να τις μελετήσετε σύμφωνα με το γνωστό σύστημα πέντε τμημάτων του Sebastian Leitner. Περισσότερες πληροφορίες είναι διαθέσιμες στον <a href\="https\://card2brain.ch/" target\=_blank>ιστότοπο</a> του card2brain.
+admin.enabled=Ενότητα "card2brain"
+admin.enterpriseKey=Κλειδί API
+admin.enterpriseLoginEnabled=Εταιρική Σύνδεση
+admin.enterpriseLoginHelpText=Για να χρησιμοποιήσετε την Εταιρική Σύνδεση απαιτείται μια συνδρομή "Corporate" του card2brain.
+admin.enterpriseLoginHelpUrl=https\://card2brain.ch/register/index?licence\=multiple&lang\=en
+admin.enterpriseSecret=Μυστικό API
+admin.expertSettings=Ρυθμίσεις για προχωρημένους
+admin.menu.title=card2brain
+admin.menu.title.alt=card2brain
+admin.peekViewUrl=Διεύθυνση URL προεπισκόπησης
+admin.peekViewUrlHelpText=Χρησιμοποιήστε το '%s' ως σύμβολο κράτησης θέσης για το ψευδώνυμο των καρτών flash.
+admin.privateLoginEnabled=Ιδιωτική Σύνδεση
+admin.privateLoginHelpText=Εμφάνιση των πεδίων σύνδεσης στο στοιχείο μαθήματος.
+admin.title=Ρυθμίσεις
+admin.verifyKeySecret.button=Επαλήθευση Κλειδιού/Μυστικού
+admin.verifyKeySecret.invalid=Το Κλειδί και το Μυστικό δεν είναι έγκυρα. Απάντηση από τον διακομιστή card2brain\: {0}
+admin.verifyKeySecret.unavaible=Η επαλήθευση δεν εκτελέστηκε σωστά.
+admin.verifyKeySecret.url=Διεύθυνση URL επαλήθευσης Κλειδιού/Μυστικού LTI
+admin.verifyKeySecret.valid=Το Κλειδί και το Μυστικό είναι έγκυρα.

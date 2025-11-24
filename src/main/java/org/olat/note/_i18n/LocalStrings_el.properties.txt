@@ -1,0 +1,15 @@
+#Wed Nov 19 09:00:07 CET 2025
+action.choose=Επιλογή
+action.delete=Διαγραφή
+note=Σημειώσεις\: {0}
+note.delete.confirmation=Είστε βέβαιοι ότι θέλετε να διαγράψετε αυτές τις σημειώσεις;
+note.delete.successfull=Οι σημειώσεις διαγράφηκαν με επιτυχία.
+note.header=Οι σημειώσεις μου
+note.nonotes=Δεν υπάρχουν διαθέσιμες σημειώσεις.
+notesPortlet.description=Γρήγορη πρόσβαση στις σημειώσεις που χρησιμοποιείτε τακτικά
+notesPortlet.nonotes=Δεν έχετε δημιουργήσει σημειώσεις μαθημάτων.
+notesPortlet.showAll=Εμφάνιση όλων
+notesPortlet.title=Οι σημειώσεις μου
+table.header.delete=Διαγραφή
+table.note.resource=Εκπαιδευτικός πόρος  
+table.note.title=Τίτλος

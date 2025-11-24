@@ -1,0 +1,14 @@
+#Wed Nov 19 09:00:07 CET 2025
+command.new_db=Δημιουργία νέας βάσης δεδομένων
+customDb.category=Όνομα
+customDb.create=Δημιουργία
+customDb.custom_db=Βάσεις δεδομένων
+customDb.entry.identity=Χρήστης
+customDb.entry.name=Όνομα
+customDb.entry.value=Τιμή
+customDb.export=Εξαγωγή
+customDb.export.failed=
+customDb.reset=Επαναφορά
+customDb.url=URL
+main.menu.title=Βάσεις δεδομένων
+main.menu.title.alt=Βάσεις δεδομένων μαθήματος

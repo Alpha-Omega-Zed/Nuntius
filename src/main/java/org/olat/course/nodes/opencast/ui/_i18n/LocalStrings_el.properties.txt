@@ -1,0 +1,20 @@
+#Wed Nov 19 09:00:07 CET 2025
+config.desc.roles=Θα λάβετε όλες τις σειρές / τα βίντεο των ρόλων '{0}'.
+config.desc.select=Επιλέξτε μια σειρά ή ένα βίντεο αναζητώντας τον τίτλο του στο παρακάτω πεδίο. Εισαγάγετε * για να εμφανιστούν όλες οι σειρές / τα βίντεό σας προς επιλογή.
+config.desc.user=Θα λάβετε όλες τις σειρές / τα βίντεο του χρήστη '{0}'.
+config.display=Εμφάνιση
+config.display.event=Βίντεο
+config.display.series=Σειρά
+config.event=Βίντεο
+config.event.search=Αναζήτηση βίντεο
+config.identifier=Αναγνωριστικό
+config.series=Σειρά
+config.series.search=Αναζήτηση σειράς
+error.event.not.found=Το συμβάν "{0}" δεν βρέθηκε στο Opencast.
+error.no.selection.long=Για το "{0}" πρέπει να επιλεγεί ένα βίντεο ή μια σειρά στην καρτέλα "Διαμόρφωση".
+error.no.selection.short=Δεν έχει επιλεγεί ούτε βίντεο ούτε σειρά.
+error.series.not.found=Η σειρά "{0}" δεν βρέθηκε στο Opencast.
+pane.tab.config=Διαμόρφωση
+start.event=Έναρξη βίντεο
+start.series=Άνοιγμα σειράς
+title=Opencast

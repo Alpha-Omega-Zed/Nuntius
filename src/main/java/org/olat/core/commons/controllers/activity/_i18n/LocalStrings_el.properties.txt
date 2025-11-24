@@ -1,0 +1,23 @@
+#Wed Nov 19 09:00:07 CET 2025
+activity.log.date=Ημερομηνία
+activity.log.filter.activity=$\:activity.log.message
+activity.log.filter.user=Χρήστης
+activity.log.message=Δραστηριότητα
+activity.log.message.create=Δημιουργία
+activity.log.message.delete=Διαγραφή
+activity.log.message.download=Λήψη
+activity.log.message.edit=Επεξεργασία
+activity.log.message.member.add=Προσθήκη μέλους
+activity.log.message.member.remove=Αφαίρεση μέλους
+activity.log.message.read=Ανάγνωση
+activity.log.message.restore=Επαναφορά
+activity.log.message.tag.add=Προσθήκη ετικέτας
+activity.log.message.tag.remove=Αφαίρεση ετικέτας
+activity.log.message.upload=Μεταφόρτωση
+activity.log.new.value=Νέα τιμή
+activity.log.original.value=Αρχική τιμή
+activity.log.title=Αρχείο καταγραφής δραστηριότητας
+tab.all=Όλα
+tab.last.12.month=Τελευταίοι 12 μήνες
+tab.last.4.weeks=Τελευταίες 4 εβδομάδες
+tab.last.7.days=Τελευταίες 7 ημέρες

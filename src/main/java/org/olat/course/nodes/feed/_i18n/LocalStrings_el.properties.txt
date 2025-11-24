@@ -1,0 +1,16 @@
+#Wed Nov 19 09:00:07 CET 2025
+command.close=Κλείσιμο προεπισκόπησης
+command.preview=Εμφάνιση προεπισκόπησης
+condition.accessModerator.title=Συντονισμός
+condition.accessPoster.title=Ανάγνωση και εγγραφή
+condition.accessReader.title=Μόνο για ανάγνωση
+edit.moderator=Συντονιστής
+edit.poster=Δημιουργία στοιχείων
+error.repoentrymissing=Αυτή η Ροή (ιστολόγιο ή podcast) έχει διαγραφεί εν τω μεταξύ από τον φάκελο αποθήκευσης των εκπαιδευτικών πόρων.
+error.wrongtype=Ο εκπαιδευτικός πόρος έχει πιθανώς λανθασμένο τύπο. Βεβαιωθείτε ότι έχετε συνδέσει ένα podcast ή ένα ιστολόγιο με αυτό το στοιχείο του μαθήματος.
+heip.hover.choose.feed=Βοήθεια σχετικά με την επιλογή της ροής σας
+pane.tab.access=Πρόσβαση
+peekview.allItemsLink=Όλα τα στοιχεία
+peekview.error=$org.olat.modules.webFeed.ui\:feed.error
+preview=Προεπισκόπηση
+title_blog=Ιστολόγιο

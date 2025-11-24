@@ -1,0 +1,18 @@
+#Wed Nov 19 09:00:07 CET 2025
+registration.addToAnnounceListSelection=Λήψη πληροφοριών για νέες εκδόσεις και ενημερώσεις ασφαλείας
+registration.email=Διεύθυνση e-mail
+registration.email.error=Παρακαλώ εισαγάγετε μια έγκυρη διεύθυνση e-mail.
+registration.location=Τοποθεσία εγγραφής
+registration.location.example=π.χ. Sunset Boulevard, Los Angeles
+registration.publishWebSiteSelection=Δημοσίευση της εγκατάστασης {0} στο openolat.org
+registration.sendAnonymousStatisticSelection=Ανώνυμη μεταφορά στατιστικών δεδομένων στο openolat.org (συνιστάται)
+registration.statistics=Το Nuntius είναι λογισμικό ανοιχτού κώδικα και χρειάζεται μια ενεργή κοινότητα χρηστών. Μπορείτε να συμμετάσχετε και να καταχωρήσετε την εγκατάσταση Nuntius που διαθέτετε στο openolat.org για να μεταφέρετε ανώνυμα στατιστικές πληροφορίες (όπως αριθμό χρηστών, μαθημάτων, κ.λπ.). Αυτά τα δεδομένα δεν θα συσχετιστούν με την εγκατάστασή σας. Θα χρησιμεύσουν μόνο για την καλύτερη τεκμηρίωση της χρήσης του Nuntius.
+registration.summary=Τα ακόλουθα δεδομένα θα μεταφερθούν στο openolat.org\:
+registration.sustainability=Η εγγραφή σας είναι επίσης επωφελής\! Με κάθε εγκατάσταση που κοινοποιείται, το Nuntius κερδίζει σε σημασία και συμβάλλει στη βιωσιμότητα της επένδυσής σας.
+registration.thanks=Σας ευχαριστούμε για την υποστήριξή σας\! Για περισσότερες πληροφορίες, επισκεφθείτε τη διεύθυνση {0}.
+registration.title=Εγγραφή συστήματος
+registration.title.notregistered=Παρακαλούμε, καταχωρήστε την εγκατάστασή σας Nuntius για να προωθήσετε περαιτέρω το Nuntius\!
+registration.title.partialregistered=Σας ευχαριστούμε για την παροχή ανώνυμων δεδομένων. Θέλετε να συνεχίσετε και να δημοσιεύσετε την εγκατάστασή σας στο openolat.org;
+registration.title.registered=Ευχαριστούμε για την εγγραφή του Nuntius\!
+registration.webSiteDescription=Περιγραφή του {0}
+registration.website=Μπορείτε να βοηθήσετε ακόμη περισσότερο επιτρέποντάς μας να δημοσιεύσουμε τη διεύθυνση URL της εγκατάστασής σας Nuntius στο openolat.org. Υποστηρίξτε μας, αναδεικνύοντας το εύρος εφαρμογών του Nuntius\

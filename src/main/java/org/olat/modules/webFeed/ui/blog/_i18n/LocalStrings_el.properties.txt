@@ -1,0 +1,13 @@
+#Wed Nov 19 09:00:07 CET 2025
+back.link=Επιστροφή στο Blog
+blog.is.being.edited.by=Η επεξεργασία αυτού του blog γίνεται από τον/την {0}.
+blog.subscribe.rss=RSS
+blog.subscribe.to.this.feed=Εγγραφή σε αυτό το blog
+error.feed.deleted=Δεν είναι δυνατή η εκκίνηση του Blog, επειδή ο πόρος του blog έχει διαγραφεί.
+feed.add.item=Προσθήκη καταχώρισης
+feed.author=Από
+feed.edit=Επεξεργασία blog
+feed.external.url=Αντικατάσταση URL
+feed.last.change=Τελευταία τροποποίηση στις
+feed.newer.items=Πρόσφατες καταχωρίσεις
+feed.older.items=Παλαιότερες καταχωρίσεις

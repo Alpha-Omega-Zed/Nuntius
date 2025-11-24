@@ -1,0 +1,25 @@
+#Wed Nov 19 09:00:07 CET 2025
+add.all=Προσθήκη όλων των δικαιωμάτων
+bgr.archive=Εργαλείο αρχειοθέτησης
+bgr.assess=Εργαλείο αξιολόγησης
+bgr.assessmode=Λειτουργία αξιολόγησης
+bgr.dbs=Βάση δεδομένων μαθήματος
+bgr.editor=Επεξεργαστής μαθήματος
+bgr.glossary=Εργαλείο γλωσσαρίου
+bgr.groupmngt=Διαχείριση ομάδων
+bgr.membermngt=Διαχείριση μελών
+bgr.statistics=Στατιστικά
+menu.rights=Δικαιώματα
+noRestriction=Κανένας περιορισμός
+participant=Συμμετέχων
+relation.right.viewCourseCalendar=Προβολή ημερολογίων μαθήματος
+relation.right.viewEfficiencyStatement=Προβολή καταστάσεων απόδοσης
+remove.all=Αφαίρεση όλων των δικαιωμάτων
+repo.participant=Συμμετέχων μαθήματος
+repo.tutor=Επιβλέπων μαθήματος
+table.header.externalid=Εξωτ. ID
+table.header.groups=Ομάδες
+table.header.id=ID
+table.header.remove=Αφαίρεση
+table.header.role=Ρόλος
+tutor=Επιβλέπων

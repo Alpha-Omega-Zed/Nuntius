@@ -1,0 +1,12 @@
+#Wed Nov 19 09:00:07 CET 2025
+config.form.title=Διαμόρφωση παρουσίασης ή καναλιού
+config.global=Προδιαμορφωμένος διακομιστής MediaSite
+config.local=Προσαρμοσμένος διακομιστής MediaSite
+config.local.description=Διαμορφώστε τη δική σας σύνδεση LTI
+configuration=Διαμόρφωση
+link.text=MediaSite
+open.my.media.site=Άνοιγμα διαχείρισης My MediaSite
+pane.tab.vcconfig=Διαμόρφωση MediaSite
+presentation.url=Διεύθυνση URL ή αναγνωριστικό παρουσίασης
+preview.content=Εμφάνιση προεπισκόπησης
+server.selection=Διαμόρφωση

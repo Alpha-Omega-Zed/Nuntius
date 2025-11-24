@@ -1,0 +1,17 @@
+#Wed Nov 19 09:00:07 CET 2025
+ULLimitExceeded=$org.olat.core.commons.modules.bc\:ULLimitExceeded
+back.link=Επιστροφή στο Podcast
+error.feed.deleted=Δεν είναι δυνατή η έναρξη του Podcast επειδή ο πόρος του ιστολογίου έχει διαγραφεί.
+feed.add.item=Προσθήκη επεισοδίου
+feed.edit=Επεξεργασία podcast
+feed.external.url=Αντικατάσταση URL
+feed.item.is.being.edited.by.same.user=$\:feed.item.is.being.edited.by $org.olat.core\:lock.same.user.different.window
+feed.newer.items=Πρόσφατα επεισόδια
+feed.older.items=Παλαιότερα επεισόδια
+podcast.episode.download=Λήψη επεισοδίων
+podcast.episodes=Επεισόδια
+podcast.is.being.edited.by=Αυτό το podcast είναι υπό επεξεργασία από τον/την {0}.
+podcast.subscribe.feed=iOS
+podcast.subscribe.itunes=iTunes
+podcast.subscribe.rss=RSS
+podcast.subscribe.to.this.feed=Εγγραφή σε αυτό το podcast

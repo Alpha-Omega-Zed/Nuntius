@@ -1,0 +1,7 @@
+#Wed Nov 19 09:00:07 CET 2025
+authentication.provider.description=Έχετε λογαριασμό στον διακομιστή Tocco;
+authentication.provider.linkText=Σύνδεση με λογαριασμό Tocco
+lf.login=Όνομα χρήστη
+lf.pass=Κωδικός πρόσβασης
+login.form=Σύνδεση Tocco
+login.intro=Παρακαλούμε συνδεθείτε με το προσωπικό σας όνομα χρήστη και τον κωδικό πρόσβασης Tocco.

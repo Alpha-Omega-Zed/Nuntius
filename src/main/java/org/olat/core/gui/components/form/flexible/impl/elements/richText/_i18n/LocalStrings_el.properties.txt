@@ -1,0 +1,14 @@
+#Wed Nov 19 09:00:07 CET 2025
+error.file.exists=$org.olat.core.commons.modules.bc\:cfile.already.exists
+error.file.invalid=$org.olat.core.commons.modules.bc\:cfile.name.notvalid
+error.media.restricted=Ο πόρος πολυμέσων προέρχεται από περιορισμένο τομέα.
+fileName=Όνομα αρχείου
+formatted=Μορφοποιημένο
+left.clear=Αριστερά με αναδίπλωση
+left.clear.nomargin=Αριστερά με λεζάντα
+multiLine=Πολλαπλές γραμμές
+oneLine=Μία γραμμή
+recordAudio=Εγγραφή ήχου
+richText.element.target.window.alwayssame=Άνοιγμα συνδέσμου πάντα στο ίδιο νέο παράθυρο
+richText.help=Πατήστε ALT-0 για βοήθεια.
+right.clear=Δεξιά με αναδίπλωση

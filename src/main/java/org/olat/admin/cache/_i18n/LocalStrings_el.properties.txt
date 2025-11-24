@@ -1,0 +1,14 @@
+#Wed Nov 19 09:00:07 CET 2025
+action.choose=Άδειασμα
+cache.clustered=Σε συστοιχία
+cache.empty=Ενέργεια
+cache.hitcnt=Επιτυχίες
+cache.maxElements=Μέγ. στοιχεία
+cache.mcexp=Αποτυχίες
+cache.name=Όνομα
+cache.off.heap=Εκτός σωρού
+cache.quickcount=~ Στοιχεία
+cache.tti=Μέγ. αδράνεια (ms)
+cache.ttl=Διάρκεια ζωής (ms)
+caches.title=Επισκόπηση κρυφών μνημών
+confirm.emptycache=Θέλετε σίγουρα να διαγράψετε όλες τις εγγραφές από αυτήν την κρυφή μνήμη;

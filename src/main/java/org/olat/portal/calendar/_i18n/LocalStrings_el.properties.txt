@@ -1,0 +1,9 @@
+#Wed Nov 19 09:00:07 CET 2025
+calendar.date=Ημερομηνία
+calendar.description=Αυτό το ημερολόγιο δείχνει την τρέχουσα ημερομηνία. Επιλέξτε μια ημέρα για να μεταβείτε στο προσωπικό σας ημερολόγιο.
+calendar.noEvents=Δεν υπάρχουν γεγονότα για την καθορισμένη περίοδο
+calendar.showAll=Εμφάνιση όλων
+calendar.subject=Περιγραφή
+calendar.title=Σήμερα
+calendar.today.all.day=Ολοήμερο σήμερα
+calendar.tomorrow.all.day=Ολοήμερο

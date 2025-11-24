@@ -1,0 +1,18 @@
+#Wed Nov 19 09:00:07 CET 2025
+configuration.properties.link=Διαμόρφωση ενότητας
+configuration.property.key=Κλειδί
+configuration.property.value=Τιμή διαμόρφωσης
+filter.show.all=Όλα
+filter.show.overwritten.only=Μόνο τοπικές ιδιότητες
+filter.show.redundant.only=Μόνο περιττές ιδιότητες
+main.menu.title=Επισκόπηση διαμόρφωσης
+main.menu.title.alt=Καθορισμός παραμέτρου έναρξης του Nuntius
+olat.local.properties.description=Οι τιμές των διαμορφώσεων της ενότητας αντικαθιστούν όλες τις άλλες τιμές και διαβάζονται απευθείας από τα αρχεία.
+olat.properties.description=Μια λίστα με όλα τα κλειδιά των τυπικών μεταβλητών. Το olat.local.properties αντικαθιστά το olat.properties και οι μεταβλητές περιβάλλοντος αντικαθιστούν το olat.local.properties.
+olat.property.key=Κλειδί
+olat.property.overwrite.value=olat.local.properties
+olat.property.redundancy=Πλεονασμός
+olat.property.value=olat.properties
+olat.system.property.value=Ιδιότητα περιβάλλοντος
+overwrite.properties.not.found=Το αρχείο olat.local.properties δεν βρέθηκε σε αυτήν τη διαδρομή\!
+setup.properties.link=Τυπικές ιδιότητες

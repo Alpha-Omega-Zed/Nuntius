@@ -1,0 +1,26 @@
+#Wed Nov 19 09:00:07 CET 2025
+admin.menu.report.certificates.title=Πιστοποιητικά
+admin.menu.report.certificates.title.alt=Πιστοποιητικά
+report=Αναφορά
+report.certificate=$org.olat.course.assessment\:table.header.certificate
+report.certificates=Αναφορά πιστοποιητικών
+report.course.displayname=Ενότητα
+report.course.externalid=$org.olat.repository\:table.header.externalid
+report.course.externalref=$org.olat.repository\:table.header.externalref
+report.course.passed=$org.olat.course.assessment\:table.header.passed
+report.course.passed.failed=$org.olat.modules.assessment.ui\:passed.false
+report.course.passed.passed=$org.olat.modules.assessment.ui\:passed.true
+report.explain=Λίστα πιστοποιητικών
+report.initialLaunchDate=$org.olat.course.assessment\:table.header.initialLaunchDate
+report.title=Αναφορά πιστοποιητικών
+search.course.passed=ολοκληρώσει επιτυχώς το μάθημα
+search.dates=Ημερομηνία πιστοποιητικού
+search.dates.separator=έως
+search.empty=Δεν βρέθηκαν μαθήματα που να πληρούν τα κριτήριά σας.
+search.passed=Οι χρήστες έχουν
+search.text=Τίτλος / Εξωτ. αναφ. / ID
+search.with=Χρήστες
+search.with.expired=με ληγμένο πιστοποιητικό
+search.with.valid=με έγκυρο πιστοποιητικό
+search.without=χωρίς πιστοποιητικό
+warning.at.least.one.test=Πρέπει να επιλέξετε τουλάχιστον ένα μάθημα.

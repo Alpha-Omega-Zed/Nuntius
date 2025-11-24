@@ -1,0 +1,15 @@
+#Wed Nov 19 09:00:07 CET 2025
+bulk.reset.link=Μαζική επαναφορά
+confirm.bulk.delete=Θέλετε πραγματικά να διαγράψετε τις επιλεγμένες ρυθμίσεις GUI;
+confirm.delete=Θέλετε πραγματικά να διαγράψετε τη ρύθμιση GUI με το κλειδί "{0}";
+info.gui.pref.deleted=Η προτίμηση GUI διαγράφηκε με επιτυχία.
+info.gui.prefs.deleted=Οι προτιμήσεις GUI διαγράφηκαν με επιτυχία.
+table.header.g.attr=Αποδιδόμενη κλάση
+table.header.g.count=Αριθμός καταχωρίσεων
+table.header.g.creation.date=Ημερομηνία δημιουργίας
+table.header.g.id=Αναγνωριστικό
+table.header.g.key=Κλειδί
+table.header.g.last.modified=Τελευταία τροποποίηση
+table.header.g.reset=Επαναφορά
+table.header.g.value=Τιμή καταχώρισης
+table.no.selection=Δεν έχει επιλεγεί καμία καταχώριση\

@@ -1,0 +1,27 @@
+#Wed Nov 19 09:00:07 CET 2025
+admin.menu.title=Εγγραφή ήχου/βίντεο
+admin.menu.title.alt=Διαμόρφωση εγγραφής ήχου και βίντεο
+admin.recording.enable.audio=Ενεργοποίηση εγγραφής ήχου
+admin.recording.enable.local.audio.conversion=Ενεργοποίηση τοπικής μετατροπής ήχου
+admin.recording.enable.local.audio.conversion.info=Η τοπική μετατροπή ήχου απαιτεί την εγκατάσταση του ffmpeg στην παρουσία του διακομιστή σας.
+admin.recording.enable.local.audio.conversion.warning=Η τοπική μετατροπή ήχου δεν είναι δυνατή.
+admin.recording.enable.local.video.conversion=Ενεργοποίηση τοπικής μετατροπής βίντεο
+admin.recording.enable.local.video.conversion.info=Η τοπική μετατροπή βίντεο απαιτεί την εγκατάσταση του HandBrakeCLI στην παρουσία του διακομιστή σας.
+admin.recording.enable.local.video.conversion.warning=Η τοπική μετατροπή βίντεο δεν είναι δυνατή
+admin.recording.enable.video=Ενεργοποίηση εγγραφής βίντεο
+admin.recording.external.conversion.active=Ο εγγεγραμμένος ήχος και το βίντεο θα μετατραπούν αυτόματα σε μια μορφή συμβατή με τα περισσότερα προγράμματα περιήγησης στο παρασκήνιο και από μια εξωτερική υπηρεσία.
+button.refresh=Ανανέωση
+button.retry=Επανάληψη
+tab.admin.conversionJobs=Εργασίες μετατροπής
+tab.admin.recording.configuration=Διαμόρφωση εγγραφής
+transcoding.status.done=Ολοκληρώθηκε
+transcoding.status.error=Σφάλμα
+transcoding.status.progress=Σε εξέλιξη\: {0}%
+transcoding.status.timeout=Έληξε το χρονικό όριο
+transcoding.status.waiting=Σε αναμονή
+transcoding.table.header.action=Ενέργεια
+transcoding.table.header.creationDate=Ημερομηνία δημιουργίας
+transcoding.table.header.fileName=Όνομα αρχείου
+transcoding.table.header.fileSize=Μέγεθος αρχείου
+transcoding.table.header.id=Αναγνωριστικό
+transcoding.table.header.status=Κατάσταση

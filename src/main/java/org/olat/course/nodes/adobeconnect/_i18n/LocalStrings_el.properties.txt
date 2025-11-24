@@ -1,0 +1,12 @@
+#Wed Nov 19 09:00:07 CET 2025
+guest.allowed=Πρόσβαση
+moderator.start.meeting=Έναρξη αίθουσας
+pane.tab.vcconfig=Ρυθμίσεις
+title_vc=Adobe Connect
+vc.access.dates=Η εικονική αίθουσα είναι διαθέσιμη μόνο στις καθορισμένες ημερομηνίες
+vc.access.label=Εξουσιοδότηση πρόσβασης
+vc.access.open=Ο συντονιστής πρέπει να βρίσκεται στην αίθουσα για να επιτρέψει την πρόσβαση στους χρήστες
+vc.access.start=Μόνο οι συντονιστές μπορούν να ανοίξουν αυτήν την εικονική αίθουσα
+vc.options.label=Εξουσιοδότηση πρόσβασης
+wimba.not.supported.message=Το Wimba Classroom δεν υποστηρίζεται.
+wimba.not.supported.title=Wimba Classroom

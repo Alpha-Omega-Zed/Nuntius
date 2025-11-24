@@ -1,0 +1,9 @@
+#Wed Nov 19 09:00:07 CET 2025
+debug=Εντοπισμός σφαλμάτων
+debugView=Εντοπισμός σφαλμάτων
+devTool=Εργαλείο ανάπτυξης
+jsource=Προβολή πηγαίου κώδικα Java
+showComponentTree=Δέντρο στοιχείων
+vsource=Προβολή πηγαίου κώδικα Velocity
+web10=Web 1.0
+web20=Web 2.0

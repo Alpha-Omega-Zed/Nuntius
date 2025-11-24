@@ -1,0 +1,30 @@
+#Wed Nov 19 09:00:07 CET 2025
+edubase.book.section.description=Σειρά ανάγνωσης
+edubase.book.section.details=Λεπτομέρειες
+edubase.book.section.details.authors=Συγγραφείς
+edubase.book.section.details.description=Περιγραφή
+edubase.book.section.details.edition=Έκδοση
+edubase.book.section.details.form.title=Λεπτομέρειες βιβλίου
+edubase.book.section.details.isbn=ISBN
+edubase.book.section.details.number.pages=Αριθμός σελίδων
+edubase.book.section.details.publisher=Εκδότης
+edubase.book.section.details.subtitle=Υπότιτλος
+edubase.book.section.details.title=Τίτλος
+edubase.book.section.details.use.title=Χρήση τίτλου
+edubase.book.section.id=Αναγνωριστικό Edubase
+edubase.book.section.id.help=Το αναγνωριστικό Edubase είναι διαθέσιμο στο app.edubase.ch. Είναι ο αριθμός μεταξύ του "\#doc/" και του "/" στη διεύθυνση URL ενός βιβλίου. Παράδειγμα\: 16137 στη διεύθυνση URL https\://app.edubase.ch/?lang\=en\#doc/<b>16137</b>/1. Είναι δυνατή η επικόλληση ολόκληρης της διεύθυνσης URL σε αυτό το πεδίο. Το Nuntius θα προσδιορίσει και θα εισαγάγει το αναγνωριστικό Edubase για εσάς.
+edubase.book.section.page.from=Σελίδα από
+edubase.book.section.page.from.to=Σελίδα {0} έως {1}
+edubase.book.section.page.to=Σελίδα έως
+edubase.book.section.title=Τίτλος βιβλίου
+edubase.with.description.enabled=Σειρά ανάγνωσης
+edubase.with.multi.pak.enabled=PAK πολλαπλών χρηστών
+edubase.with.multi.pak.enabled.help=PAK με δικαιώματα ταυτόχρονης ανάγνωσης
+form.error.page.to.higher.from=Η τελική σελίδα πρέπει να είναι μεγαλύτερη από την αρχική
+form.error.wrong.int=Λανθασμένη μορφή αριθμού. Παραδείγματα\: 2, 10, 144
+form.error.wrong.section.id=Μη έγκυρη τιμή
+link.text=Edubase
+open.document=Άνοιγμα εγγράφου
+pane.tab.book.section.list=Ενότητες βιβλίου
+pane.tab.config=Ρυθμίσεις
+peekview.allItemsLink=Όλες οι καταχωρήσεις

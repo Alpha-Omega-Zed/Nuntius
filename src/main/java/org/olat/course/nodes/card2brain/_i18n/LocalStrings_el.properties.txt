@@ -1,0 +1,19 @@
+#Wed Nov 19 09:00:07 CET 2025
+edit.FlashcardHelpText=Το ψευδώνυμο είναι διαθέσιμο στις λεπτομέρειες του σετ καρτών εκμάθησης στον ιστότοπο card2brain. Το ψευδώνυμο είναι το τελευταίο τμήμα του συνδέσμου, π.χ. 20170419_das_kleine_garten_abc
+edit.KeyHelpText=Το κλειδί API είναι διαθέσιμο στις προτιμήσεις του ιστότοπου card2brain.
+edit.SecretHelpText=Το μυστικό API είναι διαθέσιμο στις προτιμήσεις του ιστότοπου card2brain.
+edit.access.enablePrivateLogin=Χρήση ιδιωτικής σύνδεσης
+edit.access.privateKey=Κλειδί API
+edit.access.privateSecret=Μυστικό API
+edit.flashcard.alias=Ψευδώνυμο καρτών εκμάθησης
+edit.preview=Προεπισκόπηση
+edit.title=Ρύθμιση παραμέτρων καρτών εκμάθησης
+edit.warning.aliasCheckFailed=Δεν ήταν δυνατή η επαλήθευση του ψευδωνύμου. Υπάρχει κάποιο σετ καρτών εκμάθησης με αυτό το ψευδώνυμο;
+edit.warning.bothLoginDisabled=Και οι δύο μέθοδοι σύνδεσης είναι απενεργοποιημένες. Παρακαλούμε επικοινωνήστε με τον διαχειριστή σας.
+edit.warning.bothLoginDisabled.short=Και οι δύο μέθοδοι σύνδεσης είναι απενεργοποιημένες.
+edit.warning.enterpriseLoginDisabled=Αυτό το σετ καρτών εκμάθησης ρυθμίστηκε με εταιρική σύνδεση. Στο μεταξύ, η εταιρική σύνδεση απενεργοποιήθηκε από τον διαχειριστή.
+edit.warning.enterpriseLoginDisabled.short=Η εταιρική σύνδεση είναι απενεργοποιημένη.
+edit.warning.privateLoginDisabled=Αυτό το σετ καρτών εκμάθησης ρυθμίστηκε με ιδιωτική σύνδεση. Στο μεταξύ, η ιδιωτική σύνδεση απενεργοποιήθηκε από τον διαχειριστή. Αποθηκεύστε ξανά τις ρυθμίσεις για να χρησιμοποιήσετε την εταιρική σύνδεση.
+edit.warning.privateLoginDisabled.short=Η ιδιωτική σύνδεση είναι απενεργοποιημένη.
+link.text=Κάρτες εκμάθησης card2brain
+pane.tab.vcconfig=Σετ καρτών εκμάθησης

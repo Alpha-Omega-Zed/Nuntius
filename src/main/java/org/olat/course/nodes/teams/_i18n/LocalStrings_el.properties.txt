@@ -1,0 +1,7 @@
+#Wed Nov 19 09:00:07 CET 2025
+condition.accessibility.title=Πρόσβαση
+guest.allowed=Πρόσβαση
+moderator.start.meeting=Άνοιγμα αίθουσας
+pane.tab.vcconfig=Ρυθμίσεις
+title_vc=Microsoft Teams
+vc.options.label=Εξουσιοδότηση πρόσβασης

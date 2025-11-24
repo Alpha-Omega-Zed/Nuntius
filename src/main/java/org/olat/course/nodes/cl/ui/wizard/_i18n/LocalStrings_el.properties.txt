@@ -1,0 +1,15 @@
+#Wed Nov 19 09:00:07 CET 2025
+checkbox.template=Πρότυπο
+checkbox.template.description=Δημιουργήστε ένα πρότυπο για το σύνολο των λιστών ελέγχου σας. Θα εφαρμοστεί στον καθορισμένο αριθμό λιστών ελέγχου.
+configuration.template=Διαμόρφωση
+configuration.template.description=Καθορίστε τον αριθμό των λιστών ελέγχου που θα δημιουργηθούν βάσει του προτύπου. Οι μεμονωμένοι τίτλοι των λιστών ελέγχου αποτελούνται από τον τίτλο και τον αύξοντα αριθμό.
+error.needone.checklist=Χρειάζεστε τουλάχιστον ένα πλαίσιο ελέγχου
+metadatas.details=Τίτλος και προθεσμία
+metadatas.details.description=Προσαρμόστε τους τίτλους που δημιουργήθηκαν βάσει των στοιχείων που εισαγάγατε στο βήμα 2 και προσθέστε μια ημερομηνία λήξης.
+nodeConfigForm.description=$org.olat.course.editor\:nodeConfigForm.description
+nodeConfigForm.displaytitle=$org.olat.course.editor\:nodeConfigForm.displaytitle
+nodeConfigForm.shorttitle=$org.olat.course.editor\:nodeConfigForm.shorttitle
+points.sum.checklists=Σύνολο όλων των λιστών ελέγχου
+scform.passedtype.inherit=$org.olat.course.nodes.st\:scform.passedtype.inherit
+structurenode.configuration=Πληροφορίες δομής
+structurenode.configuration.description=Εισαγάγετε τις πληροφορίες για το γονικό δομικό στοιχείο του μαθήματος, το οποίο θα περιέχει τις νέες λίστες ελέγχου που θα δημιουργηθούν. Μπορείτε να αλλάξετε όλες τις πληροφορίες ανά πάσα στιγμή απευθείας στο στοιχείο του μαθήματος.

@@ -1,0 +1,15 @@
+#Wed Nov 19 09:00:07 CET 2025
+calendar.date=Ημερομηνία
+calendar.noEvents=Δεν υπάρχουν εκδηλώσεις για την επιλεγμένη περίοδο
+calendar.subject=Περιγραφή
+calendar.title=Ημερολόγιο
+calendar.today=Σήμερα
+condition.accessibility.title=Ανάγνωση
+condition.editable.title=Δημιουργία/επεξεργασία εκδήλωσης
+config.edit=Επεξεργασία εκδηλώσεων
+fhelp.start_date=Καθορίστε αν θέλετε να εμφανίζεται η τρέχουσα εβδομάδα του ημερολογίου ή μια προκαθορισμένη ημερομηνία (π.χ. η εβδομάδα ενός συγκεκριμένου σεμιναρίου).
+pane.tab.accessibility=Πρόσβαση
+pane.tab.auto_date=Τρέχουσα ημερομηνία
+pane.tab.calconfig=Ρυθμίσεις ημερολογίου
+pane.tab.manual_date=Επιλογή σταθερής ημερομηνίας
+pane.tab.start_date=Εμφανιζόμενη ημερομηνία

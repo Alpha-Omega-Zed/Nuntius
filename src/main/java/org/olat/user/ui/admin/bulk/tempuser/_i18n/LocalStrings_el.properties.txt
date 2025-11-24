@@ -1,0 +1,21 @@
+#Wed Nov 19 09:00:07 CET 2025
+error.no.user.to.create=Δεν θα δημιουργηθούν χρήστες.
+error.user.exists=Ο χρήστης υπάρχει ήδη και δεν θα δημιουργηθεί.
+error.user.exists.short=Ο χρήστης υπάρχει ήδη
+info.user.created=Δημιουργήθηκε 1 προσωρινός χρήστης και ένα αρχείο που περιέχει το όνομα χρήστη και τον κωδικό πρόσβασης λαμβάνεται στον υπολογιστή σας. Παρακαλώ, ελέγξτε τον φάκελο λήψεών σας.
+info.users.created=Δημιουργήθηκαν {0} προσωρινοί χρήστες και ένα αρχείο που περιέχει τα ονόματα χρήστη και τους κωδικούς πρόσβασης λαμβάνεται στον υπολογιστή σας. Παρακαλώ, ελέγξτε τον φάκελο λήψεών σας.
+num.users=Αριθμός χρηστών
+organisation=Οργανισμός
+table.header.expiration=Λήξη λογαριασμού
+table.header.firstname=Όνομα
+table.header.lastname=Επώνυμο
+table.header.password=Κωδικός πρόσβασης
+table.header.status=Κατάσταση
+table.header.username=Όνομα χρήστη
+users.expiration=Λήξη λογαριασμού
+users.firstname.prefix=Πρόθεμα ονόματος
+users.lastname.prefix=Πρόθεμα επωνύμου
+users.username.prefix=Πρόθεμα ονόματος χρήστη
+wizard.configuration=Ρύθμιση παραμέτρων
+wizard.overview=Επισκόπηση
+wizard.overview.infos=Ένα αρχείο Excel με τα ονόματα χρήστη και τους κωδικούς πρόσβασης θα δημιουργηθεί αφού κάνετε κλικ στο «Ολοκλήρωση».

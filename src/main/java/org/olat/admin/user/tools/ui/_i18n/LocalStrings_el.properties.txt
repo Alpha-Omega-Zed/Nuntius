@@ -1,0 +1,5 @@
+#Wed Nov 19 09:00:07 CET 2025
+available.tools=Διαθέσιμα εργαλεία
+preset.tools=Προκαθορισμένα
+usertools=Εργαλεία χρήστη
+usertools.description=Επεξήγηση εργαλείων χρήστη

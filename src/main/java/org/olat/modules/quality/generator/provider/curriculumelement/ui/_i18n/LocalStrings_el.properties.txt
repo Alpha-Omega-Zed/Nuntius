@@ -1,0 +1,23 @@
+#Wed Nov 19 09:00:07 CET 2025
+config.curriculum.element.type=Τύπος στοιχείου
+config.due.date.begin=Έναρξη
+config.due.date.days=Ημέρες μετά την ημερομηνία στοιχείου
+config.due.date.days.help=Η ημερομηνία έναρξης της συλλογής δεδομένων υπολογίζεται από την ημερομηνία του στοιχείου και τις ημέρες που εισάγονται εδώ. Ο αριθμός των ημερών μπορεί να είναι και αρνητικός.
+config.due.date.end=Λήξη
+config.due.date.type=Ημερομηνία στοιχείου
+config.duration=Διάρκεια της συλλογής δεδομένων (ημέρες)
+config.invitation.days=Πρόσκληση (ημέρες μετά την έναρξη της συλλογής δεδομένων)
+config.reminder1.days=Υπενθύμιση 1 (ημέρες μετά την έναρξη της συλλογής δεδομένων)
+config.reminder2.days=Υπενθύμιση 2 (ημέρες μετά την έναρξη της συλλογής δεδομένων)
+config.roles=Ρόλοι συμμετεχόντων
+config.roles.coach=Εκπαιδευτής
+config.roles.owner=Κάτοχος
+config.roles.participant=Συμμετέχων
+config.title=Τίτλος της συλλογής δεδομένων
+config.title.help=Διαθέσιμες μεταβλητές\: {0}
+error.curriculum.element.not.found=Ο αποθηκευμένος τύπος στοιχείου δεν υπάρχει\!
+error.number.greater=$org.olat.modules.quality.ui\:error.number.greater
+error.number.lower=$org.olat.modules.quality.ui\:error.number.lower
+error.wrong.number=$org.olat.modules.quality.ui\:error.wrong.number.wrong.number
+generate.info=Εάν ενεργοποιήσετε τη γεννήτρια με αυτήν την ημερομηνία λήξης, θα δημιουργηθούν <b>{0}</b> νέες συλλογές δεδομένων.
+provider.display.name=Στοιχείο

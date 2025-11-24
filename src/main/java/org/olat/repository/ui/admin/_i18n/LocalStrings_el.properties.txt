@@ -1,0 +1,11 @@
+#Wed Nov 19 09:00:07 CET 2025
+catalog.add.category.position=Προσθήκη νέων κατηγοριών
+catalog.add.entry.position=Προσθήκη νέων εγγραφών
+catalog.add.multiple.entries=Προσθήκη πολλαπλών εγγραφών ταυτόχρονα
+catalog.add.position.alphabetical=Αυτόματη ταξινόμηση - Αλφαβητική
+catalog.add.position.bottom=Χειροκίνητη ταξινόμηση - Στο τέλος
+catalog.add.position.top=Χειροκίνητη ταξινόμηση - Στην αρχή
+catalog.browsing=Κατάλογος στα "Μαθήματα"
+catalog.config=Διαμόρφωση
+catalog.site=Κατάλογος σε δικό του ιστότοπο
+catalog.sort.completely=Ταξινόμηση ολόκληρου του καταλόγου αλφαβητικά

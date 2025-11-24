@@ -1,0 +1,27 @@
+#Wed Nov 19 09:00:07 CET 2025
+chosenwiki=Επιλεγμένο Wiki
+command.change=Αντικατάσταση Wiki
+command.choose=Επιλογή Wiki
+command.create=Επιλέξτε, δημιουργήστε ή εισαγάγετε Wiki
+command.preview=Εμφάνιση προεπισκόπησης
+command.show=Εμφάνιση Wiki
+command.showpopup=Εμφάνιση Wiki σε νέο παράθυρο
+condition.accessibility.title=Πρόσβαση
+condition.editable.title=Δημιουργία/επεξεργασία υλικού
+config.edit=Επεξεργασία Υλικού
+display.config=Μενού Wiki στο μενού του μαθήματος;
+display.config.fieldsettitle=Ρυθμίσεις παραμέτρων
+error.launch=Αδυναμία έναρξης του Wiki.
+error.noreference.long=Για το "{0}" πρέπει να επιλέξετε ένα Wiki στην καρτέλα "Μαθησιακό περιεχόμενο Wiki" εντός της ενότητας ρυθμίσεων.
+error.noreference.short=Δεν έχει επιλεγεί ακόμη Wiki για το "{0}".
+error.repoentrymissing=Αυτό το Wiki έχει διαγραφεί εν τω μεταξύ από τον φάκελο αποθήκευσης των μαθησιακών πόρων.
+error.wiki.deleted=Ο πόρος του wiki διαγράφηκε.
+error.wiki.deleted.node=Δεν είναι δυνατή η έναρξη του wiki επειδή ο πόρος του wiki έχει διαγραφεί.
+header=Επιλογή Wiki
+no.entry.chosen=<i>Δεν έχει επιλεγεί Wiki</i>
+pane.tab.accessibility=Πρόσβαση
+pane.tab.wikiconfig=Μαθησιακό περιεchόμενο Wiki
+preview=Προεπισκόπηση
+title_wiki=Wiki
+tool.no.wiki.text=Δεν υπάρχει διαθέσιμο wiki για αυτό το μάθημα.
+tool.no.wiki.title=Δεν υπάρχει διαθέσιμο wiki

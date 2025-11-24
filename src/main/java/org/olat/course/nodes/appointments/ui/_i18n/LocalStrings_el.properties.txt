@@ -1,0 +1,17 @@
+#Wed Nov 19 09:00:07 CET 2025
+config.edit.appointment=Επεξεργασία συναντήσεων
+config.edit.coach=$org.olat.course.noderight.ui\:role.coach
+config.edit.comment=Σχόλιο
+config.edit.notification.for.organizers=Ειδοποίηση προς τους διοργανωτές
+config.edit.organizers=Διοργανωτές
+config.edit.owner=$org.olat.course.noderight.ui\:role.owner
+config.edit.participants.can.comment=Οι συμμετέχοντες μπορούν να σχολιάσουν τη συνάντηση
+config.edit.send.notification.after.selected.appointment=Αποστολή ειδοποίησης μέσω e-mail στους διοργανωτές όταν έχει επιλεγεί μια συνάντηση
+config.edit.topic=Επεξεργασία συνάντησης
+no.upcomming.appointments=Ως {0} δεν έχετε επιλέξει καμία συνάντηση.
+no.upcomming.appointments.coach=εκπαιδευτής
+no.upcomming.appointments.owner=ιδιοκτήτης
+no.upcomming.appointments.participant=συμμετέχων
+organizer.separator=
+pane.tab.config=Ρυθμίσεις
+title.appointment=Προγραμματισμός συναντήσεων

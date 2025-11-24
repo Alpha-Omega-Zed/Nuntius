@@ -1,0 +1,22 @@
+#Wed Nov 19 09:00:07 CET 2025
+GroupInfoDisplayController.content.numParticipant=Μέλος
+GroupInfoDisplayController.content.numParticipants=Μέλη
+GroupInfoDisplayController.content.title=Ομάδα
+contact.to=Μέλη ομάδας
+contactform.intro=Μήνυμα προς όλα τα μέλη αυτής της ομάδας
+contactform.nobody=Αυτή η ομάδα δεν έχει συμμετέχοντες και δεν έχει υπεύθυνους
+contactform.noowners=Αυτή η ομάδα δεν έχει υπεύθυνους.
+contactform.noparticipants=Αυτή η ομάδα δεν έχει συμμετέχοντες.
+contactform.title=Επικοινωνία
+form.fieldset.message=Μήνυμα
+form.fieldset.to=Παραλήπτης
+form.to=Προς\:
+form.to.owners=Υπεύθυνοι
+main.menu.calendar=Ημερολόγιο
+main.menu.contact=Επικοινωνία
+main.menu.members=Μέλη
+main.menu.title=Πληροφορίες ομάδας
+userlist.owners.title=$org.olat.group.ui.edit\:fieldset.legend.groupowners
+userlist.participants.title=$org.olat.group.ui.edit\:fieldset.legend.grouppartips
+userlist.title=Μέλη ομάδας
+userlist.waitingList.title=$org.olat.group.ui.edit\:fieldset.legend.waitinggroup

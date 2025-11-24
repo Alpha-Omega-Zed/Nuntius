@@ -1,0 +1,5 @@
+#Wed Nov 19 09:00:07 CET 2025
+automatic=Αυτόματο
+disabled=Απενεργοποιημένο
+mandatory=Υποχρεωτικό
+optional=Προαιρετικό

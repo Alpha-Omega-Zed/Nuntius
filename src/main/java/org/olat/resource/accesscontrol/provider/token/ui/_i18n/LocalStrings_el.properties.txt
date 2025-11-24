@@ -1,0 +1,10 @@
+#Wed Nov 19 09:00:07 CET 2025
+access.button=Κράτηση
+accesscontrol.token=Κωδικός πρόσβασης
+create=$org.olat.resource.accesscontrol.ui\:create
+invalid.token=Λανθασμένος κωδικός πρόσβασης
+invalid.token.format=Ο κωδικός πρόσβασης πρέπει να αποτελείται από τουλάχιστον δύο χαρακτήρες
+offer.description=$org.olat.resource.accesscontrol.ui\:offer.description
+token.details.title=Κωδικός πρόσβασης
+token.method=Κωδικός πρόσβασης
+token.method.description=Με αυτήν την προσφορά, ο πόρος είναι διαθέσιμος για κράτηση με κωδικό πρόσβασης. Οι χρήστες λαμβάνουν μια αντίστοιχη ιδιότητα μέλους που τους παρέχει πρόσβαση στον πόρο.

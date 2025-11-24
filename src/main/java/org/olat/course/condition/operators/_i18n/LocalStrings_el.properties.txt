@@ -1,0 +1,12 @@
+#Wed Nov 19 09:00:07 CET 2025
+operator.attributeEndswith=τελειώνει με την τιμή
+operator.attributeStartswith=ξεκινά με την τιμή
+operator.equals=είναι ίσο με
+operator.greaterThan=είναι μεγαλύτερο από
+operator.greaterThanEquals=είναι μεγαλύτερο από/ίσο με
+operator.hasAttribute=έχει ακριβώς την τιμή
+operator.hasNotAttribute=δεν έχει την τιμή
+operator.isInAttribute=περιέχει την τιμή
+operator.isNotInAttribute=δεν περιέχει την τιμή
+operator.lowerThan=είναι μικρότερο από
+operator.lowerThanEquals=είναι μικρότερο από/ίσο με

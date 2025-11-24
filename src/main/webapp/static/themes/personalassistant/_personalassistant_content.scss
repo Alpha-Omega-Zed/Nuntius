@@ -1,0 +1,31 @@
+/* 
+	Add your custom content styles here to override styles from light/modules/*. 
+*/
+
+.o_navbar {
+  background-color: #fff;
+}
+
+.o_table_large_search {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+#o_comenu_about {
+  display: none;
+}
+
+#o_offcanvas_right {
+  background-color: #0b132b !important;
+}
+
+.source-left,
+.target-left {
+  width: 15%;
+}
+
+.source-right,
+.target-right {
+  width: 85%;
+}

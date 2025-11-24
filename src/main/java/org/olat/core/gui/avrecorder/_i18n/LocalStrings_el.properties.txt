@@ -1,0 +1,15 @@
+#Wed Nov 19 09:00:07 CET 2025
+click.to.start.recording=Πατήστε «Έναρξη εγγραφής» για να ξεκινήσει η εγγραφή
+confirmButton=Επιβεβαίωση εγγραφής
+dialog.retry.text=Αν προσπαθήσετε ξανά, η διαδικασία εγγραφής θα ξεκινήσει από την αρχή και η εγγραφή που μόλις κάνατε θα διαγραφεί. Είστε σίγουροι ότι θέλετε να συνεχίσετε;
+dialog.retry.title=Είστε σίγουροι;
+oneButton.play=Αναπαραγωγή
+oneButton.start.recording=Έναρξη εγγραφής
+oneButton.stop=Διακοπή
+oneButton.stop.recording=Διακοπή εγγραφής
+recording=Εγγραφή
+retryButton=Επανάληψη εγγραφής
+video.audio.quality=Ποιότητα
+video.audio.quality.high=Υψηλότερη ποιότητα
+video.audio.quality.low=Χαμηλότερη ποιότητα
+video.audio.quality.medium=Τυπική ποιότητα

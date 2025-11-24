@@ -1,0 +1,7 @@
+#Wed Nov 19 09:00:07 CET 2025
+assign.grader.contact=Αξιολογητές
+import.choose.title=Επιλέξτε αξιολογητή
+import.confirm.title=Επιβεβαίωση
+import.mail.title=Επικοινωνία
+import.search.resource.title=Επιλέξτε διαγώνισμα
+resources.noresources=Δεν βρέθηκε κανένα διαγώνισμα

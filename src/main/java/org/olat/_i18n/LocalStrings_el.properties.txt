@@ -1,0 +1,11 @@
+#Wed Nov 19 09:00:07 CET 2025
+jump.to.content=Μετάβαση στο περιεχόμενο
+jump.to.menu=Μετάβαση στο μενού
+jump.to.nav=Μετάβαση στην πλοήγηση
+meta.description=Nuntius - ατελείωτη μάθηση
+meta.keywords=Nuntius, OLAT, eLearning, ηλεκτρονική μάθηση, πλατφόρμα μάθησης, LMS, Σύστημα Διαχείρισης Μάθησης, LCMS, Σύστημα Διαχείρισης Μαθησιακού Περιεχομένου, Ανοιχτού Κώδικα, elearning, JAVA, IMS, QTI, SCORM, πακέτο περιεχομένου, συνεργασία, ευχρηστία, απόδοση, επεκτασιμότητα.
+not.logged.in=Δεν έχετε συνδεθεί
+other.users.online=Άτομα σε σύνδεση
+select.language=Παρακαλώ επιλέξτε τη γλώσσα σας
+wayf.cookies=Παρακαλώ επιτρέψτε τα cookies για να μπορέσετε να συνδεθείτε\!
+wayf.help.noscript=Παρακαλώ ενεργοποιήστε την JavaScript.<br><br>Χωρίς την JavaScript το Nuntius δεν λειτουργεί σωστά.

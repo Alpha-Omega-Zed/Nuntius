@@ -1,0 +1,4 @@
+#Wed Nov 19 09:00:07 CET 2025
+logviewer.link.clear=Εκκαθάριση
+logviewer.link.start=Έναρξη
+logviewer.link.stop=Διακοπή

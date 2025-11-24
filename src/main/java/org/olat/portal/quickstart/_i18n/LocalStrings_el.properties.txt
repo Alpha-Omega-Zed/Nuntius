@@ -1,0 +1,14 @@
+#Wed Nov 19 09:00:07 CET 2025
+quickstart.description=Είναι η πρώτη σας φορά στο Nuntius; Εδώ θα βρείτε τους πιο σημαντικούς συνδέσμους.
+quickstart.intro=Οι παρακάτω σύνδεσμοι παρέχουν εύκολη πρόσβαση σε επιλεγμένες λειτουργίες του Nuntius.
+quickstart.link.buddygroup.new=Ομάδα έργου
+quickstart.link.help=Βοήθεια
+quickstart.link.repository.catalog=Κατάλογος
+quickstart.link.repository.courses=Μαθήματα
+quickstart.link.settings=Ρυθμίσεις
+quickstart.title=Σύνδεσμοι για γρήγορη έναρξη στο Nuntius
+quickstart.ttip.buddygroup.new=Δημιουργήστε μια ομάδα για τα έργα σας, π.χ. για την κοινή χρήση εγγράφων.
+quickstart.ttip.help=Μάθετε πώς να χρησιμοποιείτε το Nuntius
+quickstart.ttip.repository.catalog=Περιηγηθείτε στον κατάλογο μαθημάτων
+quickstart.ttip.repository.courses=Ρίξτε μια ματιά στη λίστα όλων των μαθημάτων
+quickstart.ttip.settings=Προσαρμόστε το Nuntius σύμφωνα με τις ανάγκες σας

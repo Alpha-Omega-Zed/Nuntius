@@ -1,0 +1,24 @@
+#Wed Nov 19 09:00:07 CET 2025
+admin.settings=Ρυθμίσεις
+color.categories=Κατηγορίες χρωμάτων
+course.admin.infoloadedcourses=Ενεργά μαθήματα
+course.admin.infoloadedcourses.link=Ενεργά μαθήματα
+course.author=Συγγραφέας
+course.deleted.text=Παρακαλώ κλείστε αυτήν την καρτέλα.
+course.deleted.title=Αυτό το μάθημα διαγράφηκε.
+course.disposed.command.restart=Κλείσιμο μαθήματος και επανεκκίνηση
+course.disposed.message=Παρακαλώ κλείστε αυτό το μάθημα και κάντε επανεκκίνηση.
+course.disposed.title=Αυτό το μάθημα έχει τροποποιηθεί.
+course.nodes.defaults=Στοιχεία μαθήματος
+course.times.loaded=Προβολές
+course.title=Τίτλος
+current.active.user=Ενεργοί
+error.helpcourse.not.configured=Αυτό το σύστημα δεν παρέχει καμία δυνατότητα βοήθειας.
+system.images=Εικόνες στυλ
+vfs.context.courseconfiguration=Αρχείο διαμόρφωσης μαθήματος
+vfs.context.coursefolder=Φάκελος μαθήματος
+vfs.context.export=Αρχείο εισαγόμενου μαθήματος
+vfs.context.foldernodes=Δεδομένα στοιχείων μαθήματος
+vfs.context.gtasks=Εργασία ομάδας μαθήματος
+vfs.context.participantfolder=Φάκελος συμμετεχόντων μαθήματος
+webdav.name=Μαθήματα

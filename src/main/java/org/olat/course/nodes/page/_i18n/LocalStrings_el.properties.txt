@@ -1,0 +1,11 @@
+#Wed Nov 19 09:00:07 CET 2025
+categories=Ετικέτες
+cep.content.item=Στοιχείο περιεχομένου
+cep.last.modified=Ημερομηνία τροποποίησης
+cep.name=Τίτλος
+cep.taxonomy.levels=Θεματικές ενότητες
+edit.page=Επεξεργασία σελίδας
+page.not.available.message=Η σελίδα δεν βρέθηκε.
+pane.tab.accessibility=Πρόσβαση
+pane.tab.cepconfig=Περιεχόμενο σελίδας
+permissions.title=Δικαιώματα

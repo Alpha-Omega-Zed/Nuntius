@@ -1,0 +1,10 @@
+#Wed Nov 19 09:00:07 CET 2025
+admin.menu.youtube.title=API του YouTube
+admin.menu.youtube.title.alt=API του YouTube
+api.check=Δοκιμή κλειδιού API
+api.check.failed=Το Nuntius δεν μπορεί να διαβάσει δεδομένα από το API του YouTube.
+api.check.success=Η δοκιμή ήταν επιτυχής, το Nuntius έχει πρόσβαση στο API του YouTube.
+api.configuration=Διαμόρφωση API του YouTube
+api.configuration.explain=Πρέπει να αποκτήσετε και να ενεργοποιήσετε ένα κλειδί API για το API του YouTube. Μπορείτε να το δημιουργήσετε στο <a href\="https\://console.developers.google.com/apis/api/youtube.googleapis.com">Google APIS</a>
+api.key=Κλειδί API
+api.remove=Αφαίρεση του κλειδιού

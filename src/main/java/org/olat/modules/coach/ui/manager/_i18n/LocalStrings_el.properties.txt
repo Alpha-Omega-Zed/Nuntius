@@ -1,0 +1,19 @@
+#Wed Nov 19 09:00:07 CET 2025
+delete.report.confirm.text=Είστε βέβαιοι ότι θέλετε να διαγράψετε αυτήν την αναφορά;
+delete.report.confirm.title=Διαγραφή αναφοράς
+filter.category=Κατηγορία
+generated.reports=Δημιουργημένες αναφορές
+report.templates=Πρότυπα αναφορών
+reporting=Αναφορές
+row.expiration.day={0} ακόμη ημέρα
+row.expiration.days={0} ακόμη ημέρες
+row.expiration.today=Τελευταία ημέρα
+row.xlsx=XLSX
+start.report=Δημιουργία αναφοράς
+table.header.category=$\:filter.category
+table.header.description=Περιγραφή
+table.header.name=Όνομα
+table.header.run=Εκτέλεση
+table.header.type=Τύπος
+type.dynamic=Δυναμικό
+type.static=Στατικό

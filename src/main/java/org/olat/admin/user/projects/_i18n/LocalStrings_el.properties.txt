@@ -1,0 +1,13 @@
+#Wed Nov 19 09:00:07 CET 2025
+error.atleastone=Το έργο "{0}" πρέπει να έχει τουλάχιστον έναν κάτοχο.
+projects.overview.title=Έργα στα οποία αυτός ο χρήστης είναι μέλος
+remove.user.successful=Η αφαίρεση ολοκληρώθηκε με επιτυχία
+remove.user.text=Θέλετε πραγματικά να αφαιρέσετε τον χρήστη "{0}" από το έργο "{1}";
+remove.user.title=Αφαίρεση μέλους από το έργο
+table.header.proj.overview.externalRef=Αναφορά
+table.header.proj.overview.last.visit.date=Τελευταία επίσκεψη
+table.header.proj.overview.reg.date=Εγγραφή
+table.header.proj.overview.removes=Αφαίρεση
+table.header.proj.overview.roles=Ρόλοι
+table.header.proj.overview.status=Κατάσταση
+table.header.proj.overview.title=Τίτλος

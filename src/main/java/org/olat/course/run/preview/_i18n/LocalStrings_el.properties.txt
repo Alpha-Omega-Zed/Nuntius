@@ -1,0 +1,35 @@
+#Wed Nov 19 09:00:07 CET 2025
+choose=Επιλογή
+command.close=Κλείσιμο
+command.config=Διαμόρφωση εκ νέου
+command.preview=Εμφάνιση προεπισκόπησης μαθήματος
+config.header=Διαμόρφωση προεπισκόπησης μαθήματος
+details.areas=Περιοχές μάθησης
+details.groups=Ομάδες
+details.header=Πληροφορίες για την προεπισκόπηση αυτού του στοιχείου μαθήματος
+details.longtitle=$org.olat.course.editor\:nodeConfigForm.displaytitle
+details.role=Ρόλος
+details.time=Ημερομηνία προεπισκόπησης
+details.title=$org.olat.course.editor\:nodeConfigForm.shorttitle
+details.toggle=Εμφάνιση/Απόκρυψη πληροφοριών
+details.visibility=Κανόνας ορατότητας
+details.visibility.none=<i>κανένας</i>
+form.area=Περιοχή μάθησης
+form.attrName1=Όνομα χαρακτηριστικού
+form.attrValue1=Τιμή χαρακτηριστικού
+form.attributes=Χαρακτηριστικά
+form.easy.example.bdate=Παράδειγμα\: 26.06.2007 10\:28
+form.equals=\=
+form.group=Ομάδα
+form.roles=Ρόλος
+form.sdate=Ημερομηνία
+form.sdate.invalid=Λανθασμένη μορφή ημερομηνίας
+popupchooseareas=Επιλέξτε περιοχές μάθησης από τη διαχείριση ομάδων
+popupchoosegroups=Επιλέξτε ομάδες από τη διαχείριση ομάδων
+role.courseadmin=Κάτοχοι μαθήματος
+role.coursecoach=Επιβλέποντες
+role.globalauthor=Συγγραφείς Nuntius
+role.guest=Επισκέπτες
+role.student=Εγγεγραμμένοι χρήστες Nuntius
+rootnode.invisible=Ο κύριος κόμβος δεν είναι ορατός.
+warn.notvisible=Αυτός ο κόμβος δεν είναι πλέον ορατός.

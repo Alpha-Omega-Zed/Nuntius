@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+/* Use nuntius configuration to override defaults */
+@import "nuntius_config";
+
+/* Add all default config and apply styles from light theme */
+@import "light/email";
+
+/* Override with nuntius customizations */
+@import "nuntius_email";

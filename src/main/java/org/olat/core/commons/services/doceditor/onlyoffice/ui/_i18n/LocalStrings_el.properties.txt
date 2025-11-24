@@ -1,0 +1,25 @@
+#Wed Nov 19 09:00:07 CET 2025
+admin.base.url=URL
+admin.desc=Το ONLYOFFICE είναι ένα λογισμικό για την επεξεργασία εγγράφων στο διαδίκτυο. Υποστηρίζει όλες τις κύριες μορφές αρχείων εγγράφων, υπολογιστικών φύλλων και παρουσιάσεων. Βασικά χαρακτηριστικά είναι η συνεργατική επεξεργασία και η εξαιρετική υποστήριξη μορφοτύπων αρχείων γραφείου. Περισσότερες πληροφορίες είναι διαθέσιμες στον <a href\="https\://www.onlyoffice.com/" target\=_blank>ιστότοπο</a> του ONLYOFFICE
+admin.edit.enabled=Επεξεργασία
+admin.edit.enabled.help=Απενεργοποιώντας αυτήν την επιλογή, το ONLYOFFICE χρησιμοποιείται μόνο για την προβολή εγγράφων. Ωστόσο, δεν είναι δυνατή η επεξεργασία τους με το ONLYOFFICE.
+admin.editor.enabled=Επεξεργαστής εγγράφων
+admin.enabled=Ενότητα "ONLYOFFICE"
+admin.jwt.secret=Μυστικό
+admin.jwt.secret.invalid=Το μυστικό δεν είναι έγκυρο. Πιθανότατα είναι πολύ σύντομο. Δείτε\: Προδιαγραφή JWA (RFC 7518, Ενότητα 3.2).
+admin.license.edit=Διαθέσιμες άδειες επεξεργασίας
+admin.license.edit.in.use=Άδειες επεξεργασίας σε χρήση
+admin.mobile.modes=Πρόγραμμα προβολής για κινητά
+admin.mobile.query=Ερώτημα πολυμέσων
+admin.mobile.query.help=Ερώτημα πολυμέσων CSS για να αποφασιστεί εάν θα πρέπει να εμφανίζεται το πρόγραμμα προβολής για κινητά.
+admin.mode.edit=Επεξεργαστής
+admin.mode.embedded=Ενσωματωμένο
+admin.mode.view=Πρόγραμμα προβολής
+admin.thumbnails.enabled=Μικρογραφίες
+admin.title=ONLYOFFICE
+editor.display.name=ONLYOFFICE
+editor.warning.locked=Αυτό το έγγραφο επεξεργάζεται ήδη σε έναν άλλο επεξεργαστή και επομένως εμφανίζεται σε λειτουργία μόνο για ανάγνωση.
+editor.warning.no.api.config=Δεν είναι δυνατή η εμφάνιση αυτού του εγγράφου!
+editor.warning.no.edit.license=Όλες οι άδειες για την επεξεργασία εγγράφων χρησιμοποιούνται ήδη. Το έγγραφο ανοίγει σε λειτουργία μόνο για ανάγνωση.
+editor.warning.no.metadata=Δεν είναι δυνατή η εμφάνιση αυτού του εγγράφου.
+error.positive.integer=Εισαγάγετε έναν θετικό αριθμό.

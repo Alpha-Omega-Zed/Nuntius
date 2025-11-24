@@ -1,0 +1,16 @@
+#Wed Nov 19 09:00:07 CET 2025
+admin.menu.title=Αναλυτικά στοιχεία
+admin.menu.title.alt=Αναλυτικά στοιχεία συμπεριφοράς χρηστών
+analytics.desc=Επιλέξτε μια προαιρετική υπηρεσία αναλυτικών στοιχείων για την ανάλυση της συμπεριφοράς των χρηστών μέσω ενός εξωτερικού διακομιστή.
+analytics.disabled=Απενεργοποίηση της ενότητας αναλυτικών στοιχείων
+analytics.google.desc=Εάν έχετε λογαριασμό Google Analytics, μπορείτε να διαμορφώσετε το Google Tracking ID σας για να λαμβάνετε λεπτομερή στατιστικά στοιχεία και δεδομένα σε πραγματικό χρόνο σχετικά με τη χρήση της εγκατάστασης του Nuntius.
+analytics.google.title=Διαμόρφωση Google Analytics
+analytics.google.tracking.id=Αναγνωριστικό παρακολούθησης
+analytics.privacy=Παρακαλούμε σημειώστε ότι, ως διαχειριστής της πλατφόρμας, είστε νομικά υποχρεωμένος/η να ενημερώνετε τους χρήστες σας σχετικά με τη χρήση του Google Analytics.
+analytics.service=Υπηρεσία αναλυτικών στοιχείων
+analytics.title=Ενότητα αναλυτικών στοιχείων
+matomo.desc=Περιγραφή Matomo
+matomo.site.id=Αναγνωριστικό ιστότοπου
+matomo.title=Matomo (Piwik)
+matomo.tracker.code=Κώδικας παρακολούθησης JavaScript
+matomo.tracker.url=Διεύθυνση URL του Matomo

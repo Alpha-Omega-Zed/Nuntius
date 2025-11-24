@@ -1,0 +1,11 @@
+#Wed Nov 19 09:00:07 CET 2025
+acquireownbuttontext=Ανάληψη και επεξεργασία
+error.file.not.exists=Η σελίδα δεν υπάρχει.
+error.lock.lost=Χάσατε το κλείδωμα.
+error.pageeditedby=Αυτή η σελίδα επεξεργάζεται αυτήν τη στιγμή από τον χρήστη {0}. Παρακαλώ δοκιμάστε ξανά αργότερα.
+file.too.large.server=Αυτό το έγγραφο δεν ήταν δυνατό να αποθηκευτεί καθώς είναι πολύ μεγάλο\: ({0} KB). Επιτρέπονται αρχεία μεγέθους έως {1}KB.
+lastModified=Τελευταία τροποποίηση
+plaintext.error.tolarge=$org.olat.core.commons.editor.plaintexteditor\:plaintext.error.tolarge
+saveandclosebuttontext=Αποθήκευση και κλείσιμο
+savebuttontext=Αποθήκευση
+warn.foreigneditor=Προσοχή\! Αυτό το αρχείο δημιουργήθηκε με άλλον επεξεργαστή HTML. Εάν επεξεργαστεί και αποθηκευτεί μέσω του εσωτερικού επεξεργαστή του Nuntius, η μορφοποίηση και ο πηγαίος κώδικάς του θα αλλάξουν\

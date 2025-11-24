@@ -1,0 +1,20 @@
+#Wed Nov 19 09:00:07 CET 2025
+checkall=Επιλογή όλων
+command.changecols=Στήλες ...
+default.tableEmptyMessage=Δεν βρέθηκαν δεδομένα προς εμφάνιση.
+error.atleastonedatacolumn=Παρακαλώ επιλέξτε τουλάχιστον μία στήλη δεδομένων
+error.selectatleastonecolumn=Παρακαλώ επιλέξτε τουλάχιστον μία στήλη
+resource.table.select=Επόμενο
+row.move.left=Μετακίνηση γραμμής αριστερά
+row.move.right=Μετακίνηση γραμμής δεξιά
+row.sort=Ταξινόμηση κάτω από αυτήν τη γραμμή
+row.sort.invert=Αλλαγή σειράς ταξινόμησης
+table.export.title=Εξαγωγή πίνακα
+table.filtered.include.plur=περιέχουν
+table.filtered.include.sing=περιέχει
+table.filtered.of=από
+table.header.empty=
+table.header.multiselect=Επιλογή
+table.sort=Ταξινόμηση πίνακα
+title.changecols=Επιλογή στηλών
+uncheckall=Κατάργηση επιλογής

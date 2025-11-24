@@ -1,0 +1,16 @@
+#Wed Nov 19 09:00:07 CET 2025
+DC.Subject=Θέμα
+DC.contributor=Συνεισφέροντες
+DC.coverage=Προδιαγραφή
+DC.creator=Δημιουργός
+DC.date=Ημερομηνία
+DC.description=Περίληψη
+DC.format=Μορφότυπος μέσου
+DC.identifier=Αναγνωριστικό
+DC.language=Γλώσσα
+DC.publisher=Εκδότης
+DC.relation=Σχέση
+DC.rights=Άδεια χρήσης
+DC.source=Πρωτότυπο
+DC.title=Τίτλος
+DC.type=Τύπος εγγράφου

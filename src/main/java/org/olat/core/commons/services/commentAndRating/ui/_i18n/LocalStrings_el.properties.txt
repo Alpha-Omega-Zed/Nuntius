@@ -1,0 +1,26 @@
+#Wed Nov 19 09:00:07 CET 2025
+attachment.metadata={0} | {1} - από {2} | {3}
+browser.add=$org.olat.core.commons.services.folder.ui\:browser.add
+comments.button.attachment=Επισύναψη αρχείου
+comments.button.delete.with.replies=Διαγραφή μαζί με τις απαντήσεις
+comments.button.delete.without.replies=Διαγραφή χωρίς τις απαντήσεις
+comments.button.submit=Υποβολή σχολίου
+comments.coment.reply=Απάντηση
+comments.coment.reply.error=Η απάντησή σας δεν ήταν δυνατό να αποθηκευτεί. Το αρχικό σχόλιο ενδέχεται να έχει διαγραφεί στο μεταξύ.
+comments.coment.update.error=Το σχόλιό σας δεν ήταν δυνατό να ενημερωθεί. Ενδέχεται να έχει διαγραφεί στο μεταξύ.
+comments.comment.creator={0}
+comments.comment.reply.title=Απάντηση σε\:
+comments.count=Σχόλια ({0})
+comments.count.tooltip=Πατήστε εδώ για να διαβάσετε τα σχόλια άλλων συμμετεχόντων ή για να δημιουργήσετε το δικό σας σχόλιο σε αυτή τη σελίδα.
+comments.create.goto=Προσθέστε το σχόλιό σας
+comments.dialog.delete=Θέλετε πραγματικά να διαγράψετε αυτό το σχόλιο; Αυτή η ενέργεια δεν μπορεί να αναιρεθεί.
+comments.dialog.delete.title=Διαγραφή σχολίου
+comments.dialog.delete.with.replies=$\:comments.dialog.delete Μπορείτε να διαγράψετε τα σχόλια μεμονωμένα ή μαζί με όλες τις απαντήσεις τους.
+comments.form.new.title=Προσθέστε το σχόλιό σας\:
+comments.form.placeholder=Γράψτε ένα σχόλιο...
+comments.form.reply.title=Η απάντησή σας στο {0}\:
+comments.legend.plural={0} σχόλια
+comments.legend.singular={0} σχόλιο
+rating.average.explanation=Βάσει {0} αξιολογήσεων
+rating.average.title=Αξιολόγηση άλλων
+rating.personal.title=Η αξιολόγησή σας

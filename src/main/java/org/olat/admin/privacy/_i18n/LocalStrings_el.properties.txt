@@ -1,0 +1,25 @@
+#Wed Nov 19 09:00:07 CET 2025
+admin.menu.title=Απόρρητο
+admin.menu.title.alt=Απόρρητο
+admin.props=Διαχειριστικές ιδιότητες χρήστη
+admin.props.administrators=Διαχειριστές
+admin.props.authors=Συγγραφείς μαθημάτων
+admin.props.curriculummanagers=Σχεδιαστές προγραμμάτων σπουδών
+admin.props.desc=Ρόλοι συστήματος για τους οποίους είναι ορατές οι διαχειριστικές ιδιότητες χρήστη, π.χ. σε φόρμες αναζήτησης χρηστών ή σε λίστες. Το ποιες ιδιότητες χρήστη θεωρούνται διαχειριστικές καθορίζεται στη διαμόρφωση ιδιοτήτων χρήστη.
+admin.props.educationmanagers=Διευθυντές εκπαίδευσης
+admin.props.groupmanagers=Διαχειριστές ομάδων
+admin.props.learnresourcemanagers=Διαχειριστής εκπαιδευτικών πόρων
+admin.props.lecturemanagers=Διαχειριστές απουσιών
+admin.props.linemanagers=Ιεραρχικοί προϊστάμενοι
+admin.props.poolmanagers=Διαχειριστές δεξαμενών πόρων
+admin.props.principals=Διευθυντές
+admin.props.projectmanagers=Διαχειριστές έργων
+admin.props.qualitymanagers=Διαχειριστές ποιότητας
+admin.props.rolesmanagers=Διαχειριστές ρόλων
+admin.props.sysadmins=Διαχειριστές συστήματος
+admin.props.usermanagers=Διαχειριστές χρηστών
+admin.props.users=Εκπαιδευόμενος
+last.login=Ορατότητα της ημερομηνίας τελευταίας επίσκεψης
+tunnel.cbb=Να επιτρέπεται η κοινοποίηση δεδομένων χρήστη
+tunnel.desc=Το δομικό στοιχείο μαθήματος "εξωτερική σελίδα" μπορεί να μεταδώσει δεδομένα για την ταυτοποίηση του τρέχοντος χρήστη στην κεφαλίδα HTTP για την υποστήριξη ορισμένων σεναρίων εκμάθησης (όνομα χρήστη, email, όνομα, επώνυμο, τρέχουσα διεύθυνση IP). Καθορίστε εδώ εάν αυτά τα δεδομένα πρέπει να μεταδίδονται ή όχι.
+tunnel.title=Μετάδοση δεδομένων εντός του δομικού στοιχείου μαθήματος "εξωτερική σελίδα"

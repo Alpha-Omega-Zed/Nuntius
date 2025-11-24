@@ -1,0 +1,11 @@
+#Wed Nov 19 09:00:07 CET 2025
+table.header.action=Ενέργεια
+table.header.date=Ημερομηνία
+table.header.key=Κλειδί
+table.header.value=Τιμή
+talkback.errorlog=Καταγραφή σφαλμάτων
+talkback.errormsg=Μήνυμα σφάλματος
+talkback.info=Επιστρέψατε από την εκπαιδευτική ενότητα. Η εκπαιδευτική ενότητα παρέδωσε τις ακόλουθες πληροφορίες\:
+talkback.log=Καταγραφή
+talkback.msg=Μήνυμα
+talkback.title=Η εκπαιδευτική ενότητα ολοκληρώθηκε

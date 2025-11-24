@@ -1,0 +1,23 @@
+#Wed Nov 19 09:00:07 CET 2025
+blocked.uri=Αποκλεισμένο URI
+column.number=Αριθμός στήλης
+date=Ημερομηνία
+document.uri=URI εγγράφου
+effective.directive=Οδηγία
+line.number=Αριθμός γραμμής
+original.policy=Αρχική πολιτική
+referrer=Πηγή παραπομπής
+script.sample=Δείγμα script
+source.file=Αρχείο
+table.header.blocked.uri=Αποκλεισμένο URI
+table.header.column.number=Στήλη
+table.header.date=Ημερομηνία
+table.header.document.uri=Έγγραφο
+table.header.effective.directive=Οδηγία
+table.header.key=ID
+table.header.line.number=Γραμμή
+table.header.original.policy=Πολιτική
+table.header.referrer=Πηγή παραπομπής
+table.header.source.file=Αρχείο
+user=Χρήστης
+violated.directive=παραβιασμένη πολιτική

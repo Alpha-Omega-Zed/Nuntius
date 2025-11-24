@@ -1,0 +1,8 @@
+#Wed Nov 19 09:00:07 CET 2025
+create.room=Δημιουργία αίθουσας
+create.room.desc=Για να μπορέσετε να δημοσιεύσετε αυτό το στοιχείο μαθήματος OpenMeetings και να εργαστείτε σε εικονικές συναντήσεις, πρέπει πρώτα να δημιουργήσετε και να διαμορφώσετε μια αίθουσα OpenMeetings. Επιλέξτε το παρακάτω κουμπί για να ξεκινήσετε αυτή τη διαδικασία.
+edit.room=Αλλαγή παραμέτρων αίθουσας
+error.vmsNotAvailable=$org.olat.modules.openmeetings.ui\:error.notAvailable
+pane.tab.vcconfig=Αίθουσα
+table.empty=$org.olat.modules.openmeetings.ui\:table.empty
+title_vc=OpenMeetings

@@ -1,0 +1,20 @@
+#Wed Nov 19 09:00:07 CET 2025
+button.create=Δημιουργία
+command.remove=Αφαίρεση σελίδας
+create=Δημιουργία
+edit.page=Επεξεργασία σελίδας
+error.name.empty=Παρακαλώ εισαγάγετε ένα όνομα για το αρχείο που θα δημιουργηθεί
+file.last.modified=Ημερομηνία τροποποίησης
+file.not.available.message=Δεν υπάρχει ακόμη διαθέσιμη σελίδα HTML
+filechooser.select.internallink.title=Επιλογή εσωτερικού συνδέσμου
+filechooser.select.title=Επιλογή υπάρχοντος αρχείου
+filechooser.tree.error.only.leafs=Ο κατάλογος {0} δεν μπορεί να επιλεγεί καθώς δεν είναι αρχείο. Παρακαλώ επιλέξτε ένα.
+filechooser.tree.select.intro=Επιλέξτε ένα στοιχείο και κάντε κλικ στο «Επιλογή».
+filechooser.tree.select.title=Επιλογή αρχείου HTML
+filechooser.upload.title=Μεταφόρτωση αρχείου
+filecreator.filename=Όνομα αρχείου
+filecreator.filename.placeholder=Εισαγάγετε εδώ το όνομα του αρχείου, π.χ. το_αρχειο_μου.html
+filecreator.text.newfile=Δημιουργία νέας σελίδας HTML
+html.page=Σελίδα HTML
+import=Εισαγωγή
+no.file.chosen=Δεν επιλέχθηκε αρχείο

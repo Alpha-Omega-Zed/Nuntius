@@ -1,0 +1,27 @@
+#Wed Nov 19 09:00:07 CET 2025
+allowCoachEdit=Να επιτρέπεται στους εκπαιδευτές η επεξεργασία της σελίδας
+allowRelativeLinks=Να επιτρέπονται οι σύνδεσμοι σε ολόκληρο τον φάκελο αποθήκευσης
+command.changefile=Αντικατάσταση σελίδας
+command.choosefile=Επιλογή σελίδας
+command.closePreview=Κλείσιμο προεπισκόπησης
+command.closesp=Κλείσιμο παραθύρου
+command.edit=Άνοιγμα αρχείου στον επεξεργαστή
+command.preview=Εμφάνιση προεπισκόπησης
+command.show=Εμφάνιση εκπαιδευτικού περιεχομένου
+command.showpopup=Εμφάνιση εκπαιδευτικού περιεχομένου σε νέο παράθυρο
+error.choosefilefirst=Παρακαλώ, επιλέξτε πρώτα ένα αρχείο.
+error.filedoesnotexist=Το επιλεγμένο αρχείο δεν υπάρχει.
+error.missingfile.long=Ορίστε μια σελίδα HTML για το "{0}" στην καρτέλα "Περιεχόμενο σελίδας".
+error.missingfile.short=Ορίστε μια σελίδα HTML για το "{0}".
+error.msg.can.not.switch.off.iframe=Έχει επιλεγεί ένα αρχείο XML. Για να απενεργοποιήσετε τη λειτουργία iFrame, πρέπει πρώτα να επιλέξετε μια σελίδα HTML.
+error.pdf.document=Για την εμφάνιση αρχείων PDF συνιστάται η ενότητα μαθήματος "Έγγραφο".
+error.wrong.filetype.long=Υποστηρίζονται μόνο αρχεία HTML. Για αρχείο XML, παρακαλώ ενεργοποιήστε τη λειτουργία iFrame.
+error.wrong.filetype.short=Υποστηρίζονται μόνο αρχεία HTML. Για αρχείο XML, παρακαλώ ενεργοποιήστε τη λειτουργία iFrame.
+fieldset.allowRelativeLinksForm=Ρυθμίσεις ασφαλείας
+fieldset.chosecreateeditfile=Επιλογή, επεξεργασία ή δημιουργία αρχείου HTML
+file=Επιλεγμένο αρχείο
+folder.displayname=Φάκελος αποθήκευσης
+header=Επιλογή αρχείου HTML
+pane.tab.layout=$org.olat.core.gui.control.generic.iframe\:option.delivery
+pane.tab.spconfig=Περιεχόμενο σελίδας
+selectfile=Επιλογή αυτού του αρχείου

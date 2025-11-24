@@ -1,0 +1,13 @@
+#Wed Nov 19 09:00:07 CET 2025
+admin.collaboration.experimental=Λειτουργία συνεργασίας (πειραματική)
+admin.collaboration.info=Η λειτουργία συνεργασίας αποτελεί μέρος του draw.io. Η χρήση αυτής της πειραματικής λειτουργίας μπορεί να οδηγήσει σε απώλεια δεδομένων υπό ορισμένες συνθήκες και συνεπώς <strong>δεν συνιστάται για παραγωγική χρήση</strong>.
+admin.editor.url=URL επεξεργαστή
+admin.editor.url.example=https\://embed.diagrams.net/
+admin.enabled=Ενότητα "draw.io"
+admin.export.url=URL εξαγωγής
+admin.export.url.example=https\://convert.diagrams.net/node/export
+admin.menu.title=draw.io
+admin.menu.title.alt=$\:admin.menu.title
+admin.thumbnail.enabled=Εικόνες επισκόπησης
+admin.title=$\:admin.menu.title
+editor.display.name=draw.io

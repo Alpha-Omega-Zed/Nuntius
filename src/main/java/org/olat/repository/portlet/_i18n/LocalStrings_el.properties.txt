@@ -1,0 +1,7 @@
+#Wed Nov 19 09:00:07 CET 2025
+repositoryPortlet.noentry=Δεν υπάρχουν διαθέσιμα μαθήματα προς εμφάνιση
+repositoryPortlet.showAll=Εμφάνιση όλων
+repositoryPortlet.student.description=Μια λίστα με όλα τα μαθήματα που παρακολουθώ
+repositoryPortlet.student.title=Τα μαθήματά μου
+repositoryPortlet.teacher.description=Μια λίστα με όλα τα μαθήματα που συγγράφω ή επιβλέπω
+repositoryPortlet.teacher.title=Τα μαθήματα που επιβλέπω

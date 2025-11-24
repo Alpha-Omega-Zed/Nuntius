@@ -1,0 +1,13 @@
+#Wed Nov 19 09:00:07 CET 2025
+form.addusersimport.intro=Εισαγάγετε ονόματα χρηστών στο παρακάτω πεδίο για να τους προσθέσετε στην ομάδα. Ένα όνομα χρήστη ανά γραμμή.
+import.intro=Εισαγάγετε ονόματα χρηστών του Nuntius στο παρακάτω πεδίο για να τους προσθέσετε στην ομάδα σας. Ένα όνομα χρήστη ανά γραμμή.
+import.success=Οι χρήστες προστέθηκαν σε αυτήν την ομάδα.
+import.title=Προσθήκη περισσότερων του ενός χρηστών σε αυτήν την ομάδα
+import.title.email=Ειδοποίηση μέσω e-mail
+import.title.finish=Έλεγχος
+import.title.finish.alreadyin=Οι ακόλουθοι χρήστες είναι ήδη μέλη αυτής της ομάδας\:
+import.title.finish.create=Βρέθηκαν οι ακόλουθοι χρήστες\:
+import.title.finish.isanonymous=Ανώνυμοι χρήστες που δεν θα προστεθούν\:
+import.title.finish.notfound=Τα ακόλουθα ονόματα χρηστών δεν βρέθηκαν\:
+import.title.select=Εισαγωγή ονόματος χρήστη
+submit.add=Προσθήκη

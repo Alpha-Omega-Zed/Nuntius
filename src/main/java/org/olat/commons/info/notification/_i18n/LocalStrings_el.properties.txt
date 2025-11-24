@@ -1,0 +1,5 @@
+#Wed Nov 19 09:00:07 CET 2025
+notification.title=Ειδοποιήσεις στο μάθημα "{0}"
+notification.title.group=Ειδοποιήσεις στην ομάδα "{0}"
+notifications.entry=Το μήνυμα "{0}" δημοσιεύτηκε από {1}
+notifications.entry.edited=Το μήνυμα "{0}" επεξεργάστηκε από {1}

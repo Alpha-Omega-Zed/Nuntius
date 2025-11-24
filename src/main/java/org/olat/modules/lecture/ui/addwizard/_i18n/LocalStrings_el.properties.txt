@@ -1,0 +1,8 @@
+#Wed Nov 19 09:00:07 CET 2025
+empty.course.list=Δεν υπάρχει ακόμη αναφορά σε κάποιο μάθημα
+referenced.courses=Πραγματοποιείται σε
+referenced.elements=Στοιχεία
+rentry.pic.alt=Εικόνα εξωφύλλου
+wizard.resources.title=Επιλογή στοιχείου
+wizard.settings.online.meeting.title=Διαδικτυακή συνάντηση
+wizard.settings.title=Ρυθμίσεις

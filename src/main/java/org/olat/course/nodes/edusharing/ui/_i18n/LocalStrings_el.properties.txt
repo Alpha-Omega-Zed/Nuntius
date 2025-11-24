@@ -1,0 +1,21 @@
+#Wed Nov 19 09:00:07 CET 2025
+course.node.title=edu-sharing
+edit.no.item=Στοιχείο
+edit.no.item.text=Δεν έχει επιλεγεί κάποιο στοιχείο
+edit.preview=Προεπισκόπηση
+edit.replace=Αντικατάσταση
+edit.select=Επιλογή
+edit.show=Προβολή
+edit.show.license=$org.olat.modules.edusharing.ui\:tiny.config.license.label
+edit.show.metadata=$org.olat.modules.edusharing.ui\:tiny.config.infos.label
+edit.title=$\:pane.tab.config
+edit.version=$org.olat.modules.edusharing.ui\:tiny.config.version
+edit.version.current=$org.olat.modules.edusharing.ui\:tiny.config.version.current
+edit.version.current.desc=Έκδοση κατά τη στιγμή της ενσωμάτωσης.
+edit.version.latest=$org.olat.modules.edusharing.ui\:tiny.config.version.latest
+edit.version.latest.desc=Πάντα η πιο πρόσφατη έκδοση.
+error.no.item.long=Για το «{0}» πρέπει να επιλέξετε ένα στοιχείο στην καρτέλα «edu-sharing».
+error.no.item.short=Δεν έχει επιλεγεί κάποιο στοιχείο.
+error.selection.failed=Η επιλογή δεν ήταν δυνατό να αποθηκευτεί.
+pane.tab.config=edu-sharing
+preview=Προεπισκόπηση

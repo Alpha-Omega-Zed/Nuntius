@@ -1,0 +1,27 @@
+#Wed Nov 19 09:00:07 CET 2025
+access.button=Κράτηση
+access.button.fee=Παραγγελία με χρέωση
+access.invoice.details.title=Κράτηση με τιμολόγιο "{0}"
+additional.settings=Πρόσθετες ρυθμίσεις σχετικές με το τιμολόγιο
+cancelling.fee=Τέλος ακύρωσης
+cancelling.fee.enabled=Με τέλος ακύρωσης
+cancelling.fee.free=Δωρεάν ακύρωση έως
+cancelling.fee.free.days=ημέρες πριν την έναρξη
+cancelling.fee.free.start.missing=Για να ληφθεί υπόψη η προθεσμία, πρέπει να καθοριστεί μια ημερομηνία έναρξης στην περίοδο εκτέλεσης!
+cancelling.with.deadline=Δωρεάν ακύρωση έως και {0} ημέρες πριν από την έναρξη
+config.cancelling.fee.deadline.days.default=Προθεσμία για την καταβολή του τέλους ακύρωσης (ημέρες)
+config.cancelling.fee.default=Τέλος ακύρωσης ({0})
+config.defaults=Προεπιλογές
+cost.centers=$org.olat.resource.accesscontrol.ui\:cost.centers
+create=$org.olat.resource.accesscontrol.ui\:create
+currency=Νόμισμα
+invoice.menu.title=Τιμολόγιο
+invoice.menu.title.alt=Διαμόρφωση της ενότητας τιμολογίου
+invoice.method=Τιμολόγιο
+invoice.method.description=Με αυτήν την προσφορά, ο πόρος είναι διαθέσιμος για κράτηση επί πληρωμή μέσω τιμολογίου. Οι χρήστες λαμβάνουν μια αντίστοιχη ιδιότητα μέλους που τους παρέχει πρόσβαση στον πόρο.
+offer.description=$org.olat.resource.accesscontrol.ui\:offer.description
+order.comment=$org.olat.resource.accesscontrol.ui\:order.comment
+order.purchase.number=$org.olat.resource.accesscontrol.ui\:order.purchase.number
+price=Τιμή
+vat.label=$org.olat.resource.accesscontrol.ui\:admin.vat.title
+vat.link=$org.olat.admin\:menu.payments

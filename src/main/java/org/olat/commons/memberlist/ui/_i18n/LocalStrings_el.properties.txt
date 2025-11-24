@@ -1,0 +1,17 @@
+#Wed Nov 19 09:00:07 CET 2025
+aria.view.custom=Εικόνες προφίλ
+aria.view.table=$org.olat.core.gui.components.form.flexible.impl.elements.table\:aria.view.table
+contact.list.coaches=Εκπαιδευτές
+contact.list.external=Εξωτερικοί παραλήπτες
+contact.list.others=Άλλοι
+contact.list.owners=Κάτοχοι
+contact.list.participants=Συμμετέχοντες
+contact.list.waiting=Λίστα αναμονής
+email=Ηλεκτρονικό ταχυδρομείο
+nomembers=Δεν υπάρχουν μέλη
+table.header.curriculum=Προϊόν
+table.header.curriculum.root.displayname=Όνομα
+table.header.curriculum.root.identifier=Αναγνωριστικό
+table.header.firstTime=Εγγραφή
+table.header.lastTime=Τελευταία επίσκεψη
+table.header.online=$org.olat.group.ui.main\:table.header.online

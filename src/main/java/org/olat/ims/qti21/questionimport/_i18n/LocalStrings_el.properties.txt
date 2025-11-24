@@ -1,0 +1,22 @@
+#Wed Nov 19 09:00:07 CET 2025
+download.example=Πρότυπο εισαγωγής Excel
+error.at.line=Πρόβλημα στη γραμμή {0}
+form.importdata=Αντιγραμμένες στήλες από το Excel (οριοθετημένες με κόμμα)
+input.title=Εισαγωγή δεδομένων
+item.type.essay=$org.olat.ims.qti21.ui.editor\:new.essay
+item.type.fib=Κείμενο με κενά
+item.type.inlinechoice=Κείμενο με κενά και αναπτυσσόμενη λίστα
+item.type.kprim=Kprim
+item.type.match=$org.olat.ims.qti21.ui.editor\:new.match
+item.type.matchdraganddrop=$org.olat.ims.qti21.ui.editor\:new.matchdraganddrop
+item.type.matchtruefalse=$org.olat.ims.qti21.ui.editor\:new.matchtruefalse
+item.type.mc=Πολλαπλής επιλογής
+item.type.numerical=$org.olat.ims.qti21.ui.editor\:new.fib.numerical
+item.type.sc=Μονής επιλογής
+table.header.points=Βαθμοί
+table.header.status=Κατάσταση
+table.header.title=Τίτλος
+table.header.type=Τύπος ερώτησης
+wizard.import.input.description=Εισαγάγετε τις ερωτήσεις που δημιουργήσατε με βάση το παρακάτω πρότυπο Excel μέσω αντιγραφής-επικόλλησης. Επιλέξτε τις τρεις πρώτες στήλες στο αρχείο Excel και αντιγράψτε τες στο πεδίο εισαγωγής δεδομένων.
+wizard.import.input.title=Εισαγωγή δεδομένων
+wizard.import.overview.title=Επισκόπηση

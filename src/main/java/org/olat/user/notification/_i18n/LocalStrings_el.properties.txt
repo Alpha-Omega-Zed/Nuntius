@@ -1,0 +1,7 @@
+#Wed Nov 19 09:00:07 CET 2025
+notification.additional.desc=Προκαθορισμένες αναζητήσεις\: Νέος χρήστης
+notifications.entry={0} δημιουργήθηκε
+notifications.header=Δημιουργήθηκαν νέοι λογαριασμοί χρηστών\:
+notifications.table.title=Δημιουργηθέντες νέοι χρήστες
+notifications.title=Δημιουργήθηκαν {0} νέοι χρήστες
+notifications.titleOne=Δημιουργήθηκε ένας νέος χρήστης

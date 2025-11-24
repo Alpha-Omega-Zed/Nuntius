@@ -1,0 +1,17 @@
+#Wed Nov 19 09:00:07 CET 2025
+admin.menu.title=WebDAV
+admin.menu.title.alt=Πρόσβαση WebDAV
+admin.webdav.description=Με το WebDAV μπορείτε να προσαρτήσετε και να χρησιμοποιήσετε τους φακέλους του Nuntius στην επιφάνεια εργασίας σας σαν να ήταν τοπικοί φάκελοι. Ενεργοποιήστε αυτήν τη λειτουργία για να την καταστήσετε προσβάσιμη σε όλους τους χρήστεes της πλατφόρμας σας. Παρακαλούμε, διαβάστε τη βοήθεια περιβάλλοντος.
+core.webdav=WebDAV
+webdav.client.exclusion=Εξαίρεση προγράμματος-πελάτη WebDAV
+webdav.curriculumelementsfolders=Ομαδοποίηση μαθημάτων ανά στοιχεία προγράμματος σπουδών (CPL)
+webdav.for.learners.bookmarks=Ενεργοποίηση πρόσβασης για μαθήματα που οι χρήστες έχουν επισημάνει ως αγαπημένα
+webdav.for.learners.participants=Ενεργοποίηση πρόσβασης για μαθήματα όπου ο χρήστης είναι συμμετέχων ή εκπαιδευτής
+webdav.hint=Το WebDAV σάς βοηθά να μεταφέρετε εύκολα αρχεία από τον υπολογιστή σας σε έναν φάκελο.
+webdav.link=Εμφάνιση συνδέσμων WebDAV
+webdav.managedfolders=Ομαδοποίηση «διαχειριζόμενων» μαθημάτων
+webdav.module=Πρόσβαση WebDAV
+webdav.on=ενεργοποιημένο
+webdav.prepend.reference=Προσθήκη εξωτερικής αναφοράς μαθήματος στην αρχή του τίτλου
+webdav.termsfolders=Ομαδοποίηση μαθημάτων ανά ακαδημαϊκή περίοδο
+webdav.user.agent.exclusion=Λίστα User-Agents (διαχωρισμός με κόμμα)

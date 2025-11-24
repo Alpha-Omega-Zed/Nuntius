@@ -1,0 +1,13 @@
+#Wed Nov 19 09:00:07 CET 2025
+author.choose.title=Επιλογή συγγραφέων
+author.confirm.title=Επιβεβαίωση
+author.item=Συγγραφείς
+export.outcome.download.Docx=Αρχείο Word για γραπτές εξετάσεις εκτός σύνδεσης (περιλαμβάνει και το φύλλο λύσεων)
+export.outcome.download.IMS_QTI_1.2=Αρχείο αξιολόγησης QTI 1.2 για ανταλλαγή με άλλα συμβατά LMS
+export.outcome.download.IMS_QTI_2.1=Αρχείο αξιολόγησης QTI 2.1 για ανταλλαγή με άλλα συμβατά LMS
+export.outcome.download.Zip=Αρχείο ZIP για ανταλλαγή με άλλα συστήματα Nuntius ή για αρχειοθέτηση
+export.overview=Επισκόπηση
+export.type=Τύπος
+export.type.desc=Τα στοιχεία αξιολόγησης μπορούν να εξαχθούν σε διαφορετικές μορφές. Επιλέξτε την επιθυμητή μορφή από την παρακάτω λίστα.
+exportable=Δυνατότητα εξαγωγής
+table.user.login=$org.olat.admin.user\:table.user.login

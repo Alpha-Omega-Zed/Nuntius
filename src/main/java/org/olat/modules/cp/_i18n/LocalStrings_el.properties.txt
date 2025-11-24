@@ -1,0 +1,12 @@
+#Wed Nov 19 09:00:07 CET 2025
+error.manifest.corrupted=Αυτό το μαθησιακό περιεχόμενο CP είναι άκυρο\: το imsmanifest.xml είναι πιθανώς μη έγκυρο. Για περισσότερες πληροφορίες, ανατρέξτε στη διεύθυνση http\://www.imsglobal.org.
+error.manifest.missing=Αυτό το μαθησιακό περιεχόμενο CP είναι άκυρο\: λείπει το imsmanifest.xml. Για περισσότερες πληροφορίες, ανατρέξτε στη διεύθυνση http\://www.imsglobal.org.
+error.no.content=Αυτή η σελίδα δεν έχει συνδεδεμένο περιεχόμενο.
+pdf.node=PDF
+previous=Πίσω
+print.copyright=Αυτό το περιεχόμενο προστατεύεται από πνευματικά δικαιώματα.
+print.date=Εκτυπώθηκε στις {0}
+print.node=Εκτύπωση
+print.node.list=Σελίδα
+print.node.list.desc=Επιλέξτε μία ή περισσότερες σελίδες για εκτύπωση
+print.node.list.title=Ρυθμίσεις εκτύπωσης

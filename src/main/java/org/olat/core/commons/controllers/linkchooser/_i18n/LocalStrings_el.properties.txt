@@ -1,0 +1,12 @@
+#Wed Nov 19 09:00:07 CET 2025
+error.notsupportedcharset=Αυτό το έγγραφο δεν μπορεί να αποθηκευτεί επειδή η γραμματοσειρά του δεν υποστηρίζεται\: η γραμματοσειρά είναι "{0}". Υποστηρίζονται οι ακόλουθες\: <br><br>{1})
+error.pageeditedby=Αυτή η σελίδα επεξεργάζεται από τον χρήστη {0}. Παρακαλώ δοκιμάστε ξανά αργότερα.
+filechooser.select.internallink.title=Επιλογή εσωτερικού συνδέσμου
+filechooser.select.title=Επιλογή υπάρχοντος αρχείου
+filechooser.upload.title=Μεταφόρτωση αρχείου
+linkchooser.select.title=Επιλογή συνδέσμου
+linkchooser.tabbedpane.label.filechooser=Σύνδεσμος αρχείου
+linkchooser.tabbedpane.label.internallinkchooser=Σύνδεσμος κόμβου μαθήματος
+linkchooser.tabbedpane.label.internaltoolchooser=Σύνδεσμος εργαλείου μαθήματος
+selectfile=Επιλογή
+upload.error.incorrect.filetype=Το έγγραφο που ανεβάσατε είναι λανθασμένου τύπου ({0}). Οι υποστηριζόμενοι τύποι αρχείων είναι\: {1}

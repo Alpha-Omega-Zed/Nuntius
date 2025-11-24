@@ -1,0 +1,27 @@
+#Wed Nov 19 09:00:07 CET 2025
+auto_subscribe=Αυτόματη εγγραφή
+condition.accessibility.title=Ανάγνωση ειδοποιήσεων
+condition.admin.title=Διαχείριση ειδοποιήσεων
+condition.editable.title=Δημιουργία ειδοποιήσεων
+config.admin=$\:condition.admin.title
+config.edit=$\:condition.editable.title
+mail.body.from=Από {0} στις {1}
+mail.body.more=Περισσότερες πληροφορίες
+mail.body.title=Ειδοποίηση σχετικά με το μάθημα {0}
+pane.tab.accessibility=Πρόσβαση
+pane.tab.infos_config=Ρυθμίσεις ειδοποιήσεων
+pane.tab.infos_config.all=Όλα
+pane.tab.infos_config.auto_subscribe.on=Αυτόματη εγγραφή σε αυτές τις ειδοποιήσεις μετά την ανάγνωση
+pane.tab.infos_config.max=μέγ.
+pane.tab.infos_config.max_duration=μέγ.
+pane.tab.infos_config.max_duration_2=ημέρες
+pane.tab.infos_config.max_shown_2=Ειδοποιήσεις
+pane.tab.infos_config.shown=Εμφάνιση
+pane.tab.infos_config.title=$\:pane.tab.infos_config
+peekview.more=περισσότερα...
+peekview.noInfos=Δεν υπάρχουν ειδοποιήσεις
+peekview.title=Τίτλος
+title_info=Ειδοποιήσεις
+wizard.step1.send_option.coach=Εκπαιδευτές
+wizard.step1.send_option.owner=Κάτοχοι μαθήματος
+wizard.step1.send_option.participant=Συμμετέχοντες

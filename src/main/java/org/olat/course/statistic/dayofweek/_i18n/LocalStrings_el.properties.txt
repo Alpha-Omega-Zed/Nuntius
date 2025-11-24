@@ -1,0 +1,17 @@
+#Wed Nov 19 09:00:07 CET 2025
+menu.createstatfile=Ανά ημέρα της εβδομάδας
+menu.createstatfile.alt=Εμφάνιση στατιστικών ανά ημέρα της εβδομάδας
+stat.table.header.day1=Κυριακή
+stat.table.header.day2=Δευτέρα
+stat.table.header.day3=Τρίτη
+stat.table.header.day4=Τετάρτη
+stat.table.header.day5=Πέμπτη
+stat.table.header.day6=Παρασκευή
+stat.table.header.day7=Σάββατο
+stat.table.header.node=Στοιχείο μαθήματος
+stat.table.header.total=Σύνολο
+statistic.chart.intro=Αυτό το γράφημα δείχνει όλες τις προσβάσεις {0} με βάση το σύνολο των διαθέσιμων δεδομένων του μαθήματος ανά ημέρα της εβδομάδας.
+statistic.chart.pernode.intro=Αυτό το γράφημα δείχνει όλες τις προσβάσεις στα στοιχεία του μαθήματος για την ημέρα {0}.
+statistic.chart.pernode.total.intro=Αυτό το γράφημα δείχνει όλες τις προσβάσεις στα στοιχεία του μαθήματος με βάση το σύνολο των διαθέσιμων δεδομένων του μαθήματος.
+statistic.intro=Αυτό το στατιστικό στοιχείο δείχνει όλες τις προσβάσεις στα στοιχεία του μαθήματος με βάση το σύνολο των διαθέσιμων δεδομένων του μαθήματος, ταξινομημένες ανά ημέρα της εβδομάδας.
+statistic.title=Στατιστικά ανά ημέρα της εβδομάδας

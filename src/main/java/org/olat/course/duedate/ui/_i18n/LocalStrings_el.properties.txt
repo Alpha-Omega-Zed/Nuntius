@@ -1,0 +1,11 @@
+#Wed Nov 19 09:00:07 CET 2025
+days.after=ημέρες μετά
+relative.dates=Σχετικές ημερομηνίες
+relative.to.assignment=$org.olat.course.nodes.gta.ui\:relative.to.assignment
+relative.to.assignment.after=ανάθεση εργασίας
+relative.to.course.launch=Πρώτη εκκίνηση του μαθήματος
+relative.to.course.launch.after=πρώτη εκκίνηση του μαθήματος
+relative.to.course.start=Έναρξη μαθήματος
+relative.to.course.start.after=έναρξη του μαθήματος
+relative.to.enrollment=Εγγραφή
+relative.to.enrollment.after=εγγραφή

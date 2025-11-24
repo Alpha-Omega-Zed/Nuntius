@@ -1,0 +1,19 @@
+#Wed Nov 19 09:00:07 CET 2025
+vfs.overview.action=Ενέργεια
+vfs.overview.amount=Αριθμός
+vfs.overview.files=Αρχεία *
+vfs.overview.files.note=* Δεν περιλαμβάνονται τα διαγραμμένα αρχεία, οι εκδόσεις ή οι μικρογραφίες
+vfs.overview.fileslink=Εμφάνιση μεγάλων αρχείων
+vfs.overview.name=Όνομα
+vfs.overview.recalculate=Επανυπολογισμός
+vfs.overview.size=Μέγεθος
+vfs.overview.thumbnaillink=Επαναφορά μικρογραφιών
+vfs.overview.thumbnails=Μικρογραφίες
+vfs.overview.thumbnails.reset.confirm=Θέλετε να επαναφέρετε όλες τις τρέχουσες μικρογραφίες;
+vfs.overview.thumbnails.reset.title=Επαναφορά μικρογραφιών
+vfs.overview.title=Επισκόπηση
+vfs.overview.total=Σύνολο
+vfs.overview.trash=Στον κάδο απορριμμάτων
+vfs.overview.trashlink=Εμφάνιση κάδου απορριμμάτων
+vfs.overview.versions=Εκδόσεις
+vfs.overview.versionslink=Εμφάνιση ρυθμίσεων εκδόσεων

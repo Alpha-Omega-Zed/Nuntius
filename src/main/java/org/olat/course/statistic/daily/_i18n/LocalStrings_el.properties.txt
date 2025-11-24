@@ -1,0 +1,18 @@
+#Wed Nov 19 09:00:07 CET 2025
+datechooser.error=Παρουσιάστηκε ένα πρόβλημα σχετικά με το φίλτρο ημερομηνίας.\r\nΔεν ήταν δυνατή η εκ νέου δημιουργία των στατιστικών.
+menu.createstatfile=Ημερήσια
+menu.createstatfile.alt=Προβολή ημερήσιων στατιστικών
+stat.table.header.day1=Κυριακή
+stat.table.header.day2=Δευτέρα
+stat.table.header.day3=Τρίτη
+stat.table.header.day4=Τετάρτη
+stat.table.header.day5=Πέμπτη
+stat.table.header.day6=Παρασκευή
+stat.table.header.day7=Σάββατο
+stat.table.header.node=Στοιχείο μαθήματος
+stat.table.header.total=Σύνολο
+statistic.chart.intro=Αυτό το γράφημα δείχνει όλες τις προσβάσεις {0} με βάση το σύνολο των διαθέσιμων δεδομένων του μαθήματος ανά ημέρα.
+statistic.chart.pernode.intro=Αυτό το γράφημα δείχνει όλες τις προσβάσεις σε στοιχεία μαθήματος στις {0}.
+statistic.chart.pernode.total.intro=Αυτό το γράφημα δείχνει όλες τις προσβάσεις σε στοιχεία μαθήματος κατά την επιλεγμένη χρονική περίοδο.
+statistic.intro=Αυτό το στατιστικό δείχνει όλες τις προσβάσεις σε στοιχεία μαθήματος με βάση το σύνολο των διαθέσιμων δεδομένων του μαθήματος ανά ημέρα.
+statistic.title=Ημερήσια στατιστικά

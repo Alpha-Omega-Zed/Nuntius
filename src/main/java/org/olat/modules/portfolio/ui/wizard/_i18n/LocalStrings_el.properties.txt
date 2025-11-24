@@ -1,0 +1,7 @@
+#Wed Nov 19 09:00:07 CET 2025
+add.choose.title=Επιλογή χρήστη
+add.confirm.title=Επισκόπηση
+add.mail.title=Αποστολή email
+add.permission.title=Δικαιώματα πρόσβασης
+mail.sendMail=Αποστολή e-mail
+tags.hint=$org.olat.modules.cemedia.ui\:categories.hint

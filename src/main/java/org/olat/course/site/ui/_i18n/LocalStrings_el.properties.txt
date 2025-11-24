@@ -1,0 +1,15 @@
+#Wed Nov 19 09:00:07 CET 2025
+admin.menu.title=Σελίδα πληροφοριών
+choose=Επιλογή
+course.site.no.access.text=Δεν έχετε πρόσβαση σε αυτήν τη σελίδα. Είτε δεν έχει διαμορφωθεί κάποιο μάθημα είτε τα δικαιώματα πρόσβασής σας δεν επαρκούν.
+course.site.no.access.title=Δεν υπάρχει πρόσβαση!
+remove=Αφαίρεση
+site.course=Μάθημα
+site.course.id=Soft ID του Nuntius
+site.course.title=Τίτλος του εκπαιδευτικού πόρου
+site.courses=Μαθήματα
+site.default.language=Προεπιλογή
+site.enable.toolbar=Εμφάνιση της γραμμής εργαλείων για όλους τους χρήστες
+site.icon=Κλάση CSS εικονιδίου
+site.language=Γλώσσα
+site.title=Τίτλος

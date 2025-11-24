@@ -1,0 +1,7 @@
+#Wed Nov 19 09:00:07 CET 2025
+notifications.entry=Το αρχείο "{0}" τροποποιήθηκε από {1}
+notifications.entry.anonymous=Το αρχείο "{0}" τροποποιήθηκε
+notifications.header=Υπάρχουν νέα αρχεία σε φάκελο στον οποίο έχετε εγγραφεί\:
+notifications.header.course=Φάκελος στο μάθημα "{0}"
+notifications.header.documents=Έγγραφα στο μάθημα "{0}"
+notifications.header.group=Φάκελος στην ομάδα "{0}"

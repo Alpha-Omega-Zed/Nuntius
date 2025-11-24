@@ -1,0 +1,30 @@
+#Wed Nov 19 09:00:07 CET 2025
+email.not.specified=Παρακαλώ ορίστε παραλήπτη
+email.not.valid=Η διεύθυνση e-mail δεν είναι έγκυρη
+error.norecipients.long=Δεν έχουν οριστεί παραλήπτες για {0}. Μπορείτε να τους καθορίσετε στην καρτέλα "Παραλήπτης".
+error.norecipients.short=Λείπουν οι παραλήπτες για {0}
+error.notfound.name=Το όνομα που υποδείχθηκε ({1}) δεν βρέθηκε στη διαχείριση ομάδων αυτού του μαθήματος.
+error.notfound.names=Τα ονόματα που υποδείχθηκαν ({1}) δεν βρέθηκαν στη διαχείριση ομάδων αυτού του μαθήματος.
+form.message.chckbx.coaches=Εκπαιδευτές των επιλεγμένων ομάδων μάθησης
+form.message.chckbx.owners=Ιδιοκτήτες μαθήματος
+form.message.chckbx.partips=Συμμετέχοντες των επιλεγμένων ομάδων μάθησης
+fully.assessed.trigger.status.done=Το e-mail στάλθηκε
+header=Παραλήπτης
+message.body=Μήνυμα (πρότυπο)
+message.emailtoadresses=Διευθύνσεις e-mail
+message.subject=Θέμα (πρότυπο)
+message.want.coaches=Αποστολή σε εκπαιδευτές
+message.want.email=Αποστολή σε διευθύνσεις e-mail
+message.want.group=Αποστολή σε μέλη της ομάδας
+message.want.owners=Αποστολή σε ιδιοκτήτες
+message.want.participants=Αποστολή σε συμμετέχοντες
+no.recipents.specified=Παρακαλώ επιλέξτε τουλάχιστον μία κατηγορία παραληπτών
+pane.tab.coconfig=Παραλήπτης
+recipients=Εξωτερικοί παραλήπτες
+tool.default.body=<p /><p /><p>Σύνδεσμος για το μάθημα <strong>$courseName</strong>\:<br><a href\='{0}'>$courseUrl</a></p>
+tool.recipients=Παραλήπτες
+tool.recipients.coaches=Εκπαιδευτές
+tool.recipients.mandatory=Πρέπει να επιλέξετε τουλάχιστον μία επιλογή.
+tool.recipients.owners=Ιδιοκτήτες
+tool.recipients.participants=Συμμετέχοντες
+tool.title=E-mail

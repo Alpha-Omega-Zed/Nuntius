@@ -1,0 +1,24 @@
+#Wed Nov 19 09:00:07 CET 2025
+chosencp=Επιλεγμένο περιεχόμενο εκμάθησης CP
+command.changecp=Αντικατάσταση περιεχομένου εκμάθησης CP
+command.choosecp=Επιλογή περιεχομένου εκμάθησης CP
+command.closecp=Κλείσιμο παραθύρου
+command.createcp=Επιλογή, δημιουργία ή εισαγωγή περιεχομένου εκμάθησης CP
+command.preview=Εμφάνιση προεπισκόπησης
+display.config.compMenu=Εμφάνιση πλοήγησης CP εντός του μενού του μαθήματος
+display.config.fieldset=Εμφάνιση
+display.config.startPage=Με σελίδα υποδοχής;
+display.config.startPage.false=Όχι, έναρξη απευθείας με το περιεχόμενο.
+display.config.startPage.true=Ναι, εμφάνιση σελίδας υποδοχής.
+error.cp.deleted.edit=Ο πόρος περιεχομένου εκμάθησης CP διαγράφηκε.
+error.cp.deleted.node=Δεν είναι δυνατή η έναρξη του περιεχομένου εκμάθησης CP, επειδή ο πόρος περιεχομένου εκμάθησης CP έχει διαγραφεί.
+error.cprepoentrymissing=Το περιεχόμενο εκμάθησης CP που θα θέλατε να δείτε έχει διαγραφεί στο μεταξύ.
+error.launch=Αδυναμία εκκίνησης του περιεχομένου εκμάθησης CP.
+error.noreference.long=Για το "{0}" πρέπει να επιλέξετε ένα περιεχόμενο εκμάθησης CP στην καρτέλα "Περιεχόμενο εκμάθησης" στην ενότητα ρυθμίσεων.
+error.noreference.short=Δεν έχει επιλεγεί ακόμη περιεχόμενο εκμάθησης CP για το "{0}".
+header=Επιλογή περιεχομένου εκμάθησης CP
+no.cp.chosen=<i>Δεν έχει επιλεγεί περιεχόμενο εκμάθησης CP</i>
+pane.tab.cpconfig=Περιεχόμενο εκμάθησης
+pane.tab.deliveryOptions=$org.olat.core.gui.control.generic.iframe\:option.delivery
+preview.cp=Προεπισκόπηση
+title_cp=Περιεχόμενο εκμάθησης CP

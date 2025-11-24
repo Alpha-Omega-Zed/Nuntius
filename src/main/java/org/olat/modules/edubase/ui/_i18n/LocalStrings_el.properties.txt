@@ -1,0 +1,19 @@
+#Wed Nov 19 09:00:07 CET 2025
+admin.edubase.authentication.issuer.enabled=Χρήση εκδότη ελέγχου ταυτότητας
+admin.edubase.authentication.issuer.enabled.help=Εάν δεν χρησιμοποιείται ο εκδότης του ελέγχου ταυτότητας, το Nuntius χρησιμοποιείται πάντα ως εκδότης (διαμόρφωση\: instance.issuer.identifier).
+admin.edubase.cover.url=Διεύθυνση URL υπηρεσίας "cover"
+admin.edubase.description=Το Edubase είναι η ολοκληρωμένη λύση για ψηφιακές και έντυπες εκδόσεις. Η ενότητα Edubase του Nuntius σάς επιτρέπει να ενσωματώσετε το Edubase Reader σε μαθήματα. Περισσότερες πληροφορίες είναι διαθέσιμες στον <a href\="http\://www.edubase.ch" target\=_blank>ιστότοπο</a> του Edubase.
+admin.edubase.enabled=Στοιχείο μαθήματος "Edubase"
+admin.edubase.infover.url=Διεύθυνση URL υπηρεσίας "infover"
+admin.edubase.lti.launch.url=Διεύθυνση URL εκκίνησης LTI
+admin.edubase.multi.pak=PAK πολλαπλών χρηστών
+admin.edubase.multi.pak.help=PAK με ταυτόχρονα δικαιώματα ανάγνωσης
+admin.edubase.oauth.key=Κλειδί
+admin.edubase.oauth.secret=Μυστικό
+admin.edubase.reader.url=Διεύθυνση URL του Edubase Reader
+admin.edubase.reader.url.unique=Μοναδική διεύθυνση URL του Edubase Reader
+admin.edubase.reader.url.unique.help=Η διεύθυνση URL του Edubase Reader τροποποιείται με ένα διακριτικό (token) συγκεκριμένο για τον χρήστη, για την αποφυγή προβλημάτων με τον αριθμό των συσκευών.
+admin.edubase.title=Edubase
+admin.expert.settings=Ρυθμίσεις για προχωρημένους
+admin.menu.title=Edubase/Edubook
+admin.menu.title.alt=Στοιχεία μαθήματος Edubase και Edubook

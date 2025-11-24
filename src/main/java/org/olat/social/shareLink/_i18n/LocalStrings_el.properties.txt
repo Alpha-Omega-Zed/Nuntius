@@ -1,0 +1,10 @@
+#Wed Nov 19 09:00:07 CET 2025
+landingpage.set.current=Ορισμός της τρέχουσας σελίδας ως προσωπικής αρχικής σελίδας στο προφίλ
+landingpage.set.message=Η τρέχουσα σελίδα θα χρησιμοποιηθεί ως αρχική σελίδα την επόμενη φορά που θα συνδεθείτε
+share.facebook=Κοινοποίηση συνδέσμου στο facebook
+share.link=Αντιγραφή συνδέσμου
+share.linkedin=Κοινοποίηση συνδέσμου στο LinkedIn
+share.mail=Κοινοποίηση συνδέσμου μέσω email
+share.qrcode=Αντιγραφή κωδικού QR
+share.social=Κοινοποίηση συνδέσμου αυτής της σελίδας
+share.twitter=Σύνδεσμος X

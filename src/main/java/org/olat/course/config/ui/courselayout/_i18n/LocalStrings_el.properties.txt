@@ -1,0 +1,17 @@
+#Wed Nov 19 09:00:07 CET 2025
+course.layout.custom=Προσαρμογή...
+course.layout.default=Προεπιλογή
+course.layout.legacy=Από τον φάκελο μαθήματος {0}
+course.layout.predefined=Πρότυπο μαθήματος
+course.layout.save=Αποθήκευση
+course.layout.selector=Επιλέξτε διάταξη για αυτό το μάθημα
+course.layout.template=Πρότυπο συστήματος {0}
+course.navigation=Πλοήγηση
+logo.delete=Διαγραφή
+logo.file.type.error=Παρακαλώ επιλέξτε μια έγκυρη εικόνα ως λογότυπο (π.χ. png, gif, jpg)\!
+logo.image.label=Λογότυπο στην κεφαλίδα
+logo.size.error=Το αρχείο που ανεβάσατε είναι πολύ μεγάλο, παρακαλώ χρησιμοποιήστε ένα μικρότερο.
+logo.upload.error=Δεν ήταν δυνατή η επεξεργασία αυτού του λογότυπου, παρακαλώ δοκιμάστε μια άλλη εικόνα.
+logo.upload.success=Το λογότυπό σας αποθηκεύτηκε με επιτυχία.
+preview.image.label=Προεπισκόπηση
+upload.second.logo=Μεταφόρτωση λογότυπου

@@ -1,0 +1,4 @@
+#Wed Nov 19 09:00:07 CET 2025
+briefcase.title=Ρυθμίσεις φακέλου
+thumbnails.reset=Επαναφορά μικρογραφιών
+thumbnails.reset.intro.1=Αυτό το κουμπί θα επαναφέρει όλες τις μικρογραφίες

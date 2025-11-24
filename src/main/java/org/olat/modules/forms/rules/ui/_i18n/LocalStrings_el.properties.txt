@@ -1,0 +1,17 @@
+#Wed Nov 19 09:00:07 CET 2025
+action=Ενέργεια
+action.visibility=Ορατότητα
+action.visibility.show=εμφάνιση
+condition=Συνθήκη
+condition.choice=Επιλογή
+condition.choice.is=είναι
+element.deleted=<Διαγραμμένο στοιχείο>
+empty.state.hint=Συμβουλή\: Είναι προτιμότερο να ορίζετε τους κανόνες αφού σχεδιαστεί η φόρμα.
+empty.state.message=Δεν έχει δημιουργηθεί ακόμη κανένας κανόνας.
+error.element.not.available=Μη διαθέσιμο.
+no.action.available=<i>Δεν υπάρχει διαθέσιμη ενέργεια.</i>
+no.condition.available=<i>Δεν υπάρχει διαθέσιμη συνθήκη.</i>
+no.rules.possible.hint=Για περισσότερες πληροφορίες, ανατρέξτε στο εγχειρίδιο χρήστη.
+no.rules.possible.message=Δεν είναι δυνατή η δημιουργία κανόνων.
+rule.add=Προσθήκη κανόνα
+rule.delete=

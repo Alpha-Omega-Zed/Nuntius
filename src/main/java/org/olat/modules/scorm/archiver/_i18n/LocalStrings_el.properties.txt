@@ -1,0 +1,12 @@
+#Wed Nov 19 09:00:07 CET 2025
+results.header=Αποτελέσματα SCORM
+results.table.foot.cr=Απάντηση εκπαιδευόμενου
+results.table.footer.sr=Σωστή απάντηση
+results.table.header.comments=Σχόλιο
+results.table.header.interaction=Ερώτηση {0}
+results.table.header.itemId=SCORM
+results.table.header.lessonStatus=Κατάσταση
+results.table.header.objective=Μέγιστη βαθμολογία {0}
+results.table.header.rawScore=Τελική βαθμολογία
+results.table.header.totalTime=Χρόνος
+results.table.header.username=Όνομα χρήστη

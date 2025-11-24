@@ -1,0 +1,13 @@
+#Wed Nov 19 09:00:07 CET 2025
+admin.menu.title=Δημιουργία PDF
+admin.menu.title.alt=Δημιουργία PDF
+athena.pdf.description=Το <a href\="https\://www.athenapdf.com">AthenaPDF</a> είναι ένας μετατροπέας PDF που βασίζεται στο electron και είναι πακεταρισμένος με Docker. Αυτή η υλοποίηση χρησιμοποιεί την παραλλαγή Micro Service με την ονομασία weaver. Μπορείτε να βρείτε περισσότερες πληροφορίες στη διεύθυνση <a href\="https\://www.athenapdf.com">AthenaPDF</a> και στο <a href\="https\://github.com/arachnys/athenapdf/tree/master/weaver">GitHub</a>.
+athena.pdf.key=Κλειδί
+athena.pdf.url=Διεύθυνση URL της υπηρεσίας
+gotenberg.description=Το <a href\="https\://gotenberg.dev">Gotenberg</a> είναι ένας μετατροπέας PDF που βασίζεται στο Google Chrome ή στο Chromium και είναι πακεταρισμένος με Docker. Μπορείτε να βρείτε περισσότερες πληροφορίες στη διεύθυνση <a href\="https\://gotenberg.dev">Gotenberg</a>.
+gotenberg.url=$\:athena.pdf.url
+on=Ενεργοποιημένο
+pdf.enable=Υπηρεσία PDF
+pdf.providers=Γεννήτρια
+pdf.service.description=Δημιουργία PDF
+pdf.service.title=Δημιουργία PDF

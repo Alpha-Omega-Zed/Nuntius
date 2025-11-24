@@ -1,0 +1,17 @@
+#Wed Nov 19 09:00:07 CET 2025
+add.course.owner=Προσθήκη ως ιδιοκτήτης
+add.course.participant=Προσθήκη ως συμμετέχων
+add.course.tutor=Προσθήκη ως εκπαιδευτής
+add.courses.title=Εκπαιδευτικοί πόροι στους οποίους ο χρήστης είναι μέλος
+choose=Επιλογή
+dialog.modal.bg.mail.text=Θέλετε να ενημερώσετε αυτόν τον χρήστη μέσω email;
+error.atleastone=Το μάθημα "{0}" πρέπει να έχει τουλάχιστον έναν ιδιοκτήτη.
+group.delete.confirmation=$org.olat.admin.user.groups\:group.delete.confirmation
+table.header.displayName=Μάθημα
+unsubscribe.group.del=$org.olat.admin.user.groups\:unsubscribe.group.del
+unsubscribe.successful=Επιτυχής απεγγραφή
+unsubscribe.text=Θέλετε πραγματικά να απεγγράψετε τον χρήστη "{0}" από το μάθημα "{1}";
+unsubscribe.title=Απεγγραφή χρήστη από μάθημα
+unsubscribe.withgroups.text=Θέλετε πραγματικά να απεγγράψετε τον χρήστη "{0}" από το μάθημα "{1}" και από τις ομάδες "{2}";
+warning.cannot.leave.entry=Ο εκπαιδευτικός πόρος έχει εξωτερική διαχείριση, η ανάθεση μελών πραγματοποιείται αυτόματα.
+warning.cannot.leave.group=Ο χρήστης έχει ανατεθεί μέσω ομάδας και η αποχώρηση από την ομάδα δεν επιτρέπεται.

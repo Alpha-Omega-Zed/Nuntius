@@ -1,0 +1,9 @@
+#Wed Nov 19 09:00:07 CET 2025
+attribute.title.backgroundColor=Χρώμα φόντου
+attribute.title.color=Χρώμα
+attribute.title.font=Οικογένεια γραμματοσειράς
+attribute.title.preview=Προεπισκόπηση
+attribute.title.size=Μέγεθος γραμματοσειράς
+color.double.error=Παρακαλούμε επιλέξτε χρώμα ή εισαγάγετε τιμή hex, όχι και τα δύο\!
+color.hex.error=Αυτή είναι μια μη έγκυρη τιμή hex\! Ξεκινήστε με \#.
+preview.sample=Ένα σύντομο κείμενο προεπισκόπησης
