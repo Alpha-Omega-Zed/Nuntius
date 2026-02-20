@@ -408,34 +408,34 @@ public class UserImportController extends BasicController {
 
 		// get some data about the actor and fetch the translated subject / body via i18n module
 		String[] bodyArgs = new String[] {
-				username,														// 0
-				StringHelper.escapeHtml(identity.getUser().getProperty(UserConstants.FIRSTNAME, null)),	// 1
-				StringHelper.escapeHtml(identity.getUser().getProperty(UserConstants.LASTNAME, null)),	// 2
-				StringHelper.escapeHtml(um.getUserDisplayEmail(identity, getLocale())),					// 3
-				Settings.getServerContextPathURI(),								// 4
-				transientIdentity.getPassword()									// 5
+		        username,														// 0
+		        identity.getUser().getProperty(UserConstants.FIRSTNAME, null),	// 1
+		        identity.getUser().getProperty(UserConstants.LASTNAME, null),	// 2
+		        um.getUserDisplayEmail(identity, getLocale()),					// 3
+		        Settings.getServerContextPathURI(),								// 4
+		        transientIdentity.getPassword()	
 		};
 		Locale locale = i18nManager.getLocaleOrDefault(identity.getUser().getPreferences().getLanguage());
 		Translator translator = Util.createPackageTranslator(UserImportController.class, locale);
 
 		String subject = translator.translate("mail.new.identity.subject");
 		String body = translator.translate("mail.new.identity.text", bodyArgs);
-		
+
 		// create a mail template which all these data
 		return new MailTemplate(subject, body, null) {
-			@Override
-			public void putVariablesInMailContext(Identity emailedIdentity) {
-				// Put user variables into velocity context
-				User user = emailedIdentity.getUser();
-				String firstname = StringHelper.escapeHtml(user.getProperty(UserConstants.FIRSTNAME, null));
-				putVariablesInMailContext("firstName", firstname);
-				putVariablesInMailContext("firstname", firstname);
-				String lastname = StringHelper.escapeHtml(user.getProperty(UserConstants.LASTNAME, null));
-				putVariablesInMailContext("lastName", lastname);
-				putVariablesInMailContext("lastname", lastname);
-				//the email of the user, needs to stay named 'login'
-				putVariablesInMailContext("login", StringHelper.escapeHtml(user.getProperty(UserConstants.EMAIL, null)));
-			}
+		    @Override
+		    public void putVariablesInMailContext(Identity emailedIdentity) {
+		        // Put user variables into velocity context
+		        User user = emailedIdentity.getUser();
+		        String firstname = user.getProperty(UserConstants.FIRSTNAME, null);
+		        putVariablesInMailContext("firstName", firstname);
+		        putVariablesInMailContext("firstname", firstname);
+		        String lastname = user.getProperty(UserConstants.LASTNAME, null);
+		        putVariablesInMailContext("lastName", lastname);
+		        putVariablesInMailContext("lastname", lastname);
+		        //the email of the user, needs to stay named 'login'
+		        putVariablesInMailContext("login", user.getProperty(UserConstants.EMAIL, null));
+		    }
 		};
 	}
 
