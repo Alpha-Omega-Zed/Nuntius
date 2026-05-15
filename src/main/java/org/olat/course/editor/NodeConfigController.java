@@ -49,8 +49,8 @@ import org.olat.repository.ui.settings.LazyRepositoryEdusharingProvider;
  */
 public class NodeConfigController extends FormBasicController {
 
-	public static final int LONG_TITLE_MAX_LENGTH = 75;  // recommendation
-	public static final int SHORT_TITLE_MAX_LENGTH = 25; // must
+	public static final int LONG_TITLE_MAX_LENGTH = 256;  // recommendation
+	public static final int SHORT_TITLE_MAX_LENGTH = 100; // must
 
 	private TextElement shortTitleEl;
 	private TextElement titleEl;

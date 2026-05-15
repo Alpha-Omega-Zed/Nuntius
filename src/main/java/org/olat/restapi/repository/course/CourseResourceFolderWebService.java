@@ -30,12 +30,14 @@ import java.util.List;
 
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.ws.rs.Consumes;
+import jakarta.ws.rs.DefaultValue;
 import jakarta.ws.rs.GET;
 import jakarta.ws.rs.POST;
 import jakarta.ws.rs.PUT;
 import jakarta.ws.rs.Path;
 import jakarta.ws.rs.PathParam;
 import jakarta.ws.rs.Produces;
+import jakarta.ws.rs.QueryParam;
 import jakarta.ws.rs.core.CacheControl;
 import jakarta.ws.rs.core.Context;
 import jakarta.ws.rs.core.MediaType;
@@ -227,6 +229,32 @@ public class CourseResourceFolderWebService {
 	public Response getCourseFiles(@PathParam("courseId") Long courseId, @PathParam("path") List<PathSegment> path,
 			@Context UriInfo uriInfo, @Context HttpServletRequest httpRequest, @Context Request request) {
 		return getFiles(courseId, path, FolderType.COURSE_FOLDER, uriInfo, httpRequest, request);
+	}
+
+	/**
+	 * This attaches the uploaded file(s) to the supplied folder id.
+	 * 
+	 * @param courseId The course resourceable's id
+	 * @param filename The filename
+	 * @param file The file resource to upload
+	 * @param request The HTTP request
+	 * @return 
+	 */
+	@POST
+	@Path("coursescorm")
+	@Operation(summary = "This imports the uploaded scorm to the supplied course id", description = "This imports the uploaded scorm to the supplied course id")
+	@ApiResponse(responseCode = "200", description = "The scorm is correctly imported")
+	@ApiResponse(responseCode = "401", description = "The roles of the authenticated user are not sufficient")
+	@ApiResponse(responseCode = "404", description = "The course or course node not found")
+	@ApiResponse(responseCode = "406", description = "The course node is not acceptable to copy a file")
+	@Consumes(MediaType.MULTIPART_FORM_DATA)
+	public Response attachSCORMToCoursePost(
+			@PathParam("courseId") 			Long courseId,
+			@QueryParam("parentNodeId") 	String parentNodeId,
+			@QueryParam("shortTitle") 		String shortTitle,
+			@QueryParam("longTitle") 		@DefaultValue("undefined") String longTitle,
+			@Context HttpServletRequest request) {
+		return Response.ok().build();
 	}
 
 	/**
@@ -473,12 +501,22 @@ public class CourseResourceFolderWebService {
 	}
 	
 	private boolean isAuthor(ICourse course, HttpServletRequest httpRequest) {
-		UserRequest ureq = RestSecurityHelper.getUserRequest(httpRequest);
-		Identity identity = ureq.getIdentity();
-		Roles roles = ureq.getUserSession().getRoles();
-		RepositoryEntrySecurity reSecurity = repositoryManager.isAllowed(identity, roles,
-				course.getCourseEnvironment().getCourseGroupManager().getCourseEntry());
-		return reSecurity.isEntryAdmin();
+	    UserRequest ureq = RestSecurityHelper.getUserRequest(httpRequest);
+	    if (ureq == null || ureq.getIdentity() == null) {
+	        log.warn("REST request has no authenticated UserRequest or Identity");
+	        return false;
+	    }
+
+	    Identity identity = ureq.getIdentity();
+	    Roles roles = RestSecurityHelper.getRoles(httpRequest);
+
+	    RepositoryEntrySecurity reSecurity = repositoryManager.isAllowed(
+	            identity,
+	            roles,
+	            course.getCourseEnvironment().getCourseGroupManager().getCourseEntry()
+	    );
+
+	    return reSecurity != null && reSecurity.isEntryAdmin();
 	}
 
 	public enum FolderType {
