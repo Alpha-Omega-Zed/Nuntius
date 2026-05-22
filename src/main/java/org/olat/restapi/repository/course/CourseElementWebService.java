@@ -92,6 +92,16 @@ import org.olat.restapi.support.vo.elements.TestConfigVO;
 import org.olat.restapi.support.vo.elements.TestReportConfigVO;
 import org.springframework.stereotype.Component;
 
+import org.olat.basesecurity.OrganisationService;
+import org.olat.core.id.Organisation;
+import org.olat.course.nodes.ScormCourseNode;
+import org.olat.course.nodes.scorm.ScormEditController;
+import org.olat.fileresource.types.ResourceEvaluation;
+import org.olat.fileresource.types.ScormCPFileResource;
+import org.olat.repository.RepositoryEntryImportExportLinkEnum;
+import org.olat.repository.handlers.RepositoryHandler;
+import org.olat.repository.handlers.RepositoryHandlerFactory;
+
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.media.Content;
 import io.swagger.v3.oas.annotations.media.Schema;
@@ -162,6 +172,129 @@ public class CourseElementWebService extends AbstractCourseNodeWebService {
 		
 		CourseNodeVO vo = ObjectFactory.get(parentNode.getCourseNode());
 		return Response.ok(vo).build();
+	}
+	
+	@POST
+	@Path("scorm")
+	@Operation(summary = "Attach SCORM element to course", description = "Imports a SCORM ZIP and attaches it as a SCORM course element.")
+	@ApiResponse(responseCode = "200", description = "The SCORM course node metadata")
+	@ApiResponse(responseCode = "401", description = "The roles of the authenticated user are not sufficient")
+	@ApiResponse(responseCode = "404", description = "The course or parentNode not found")
+	@ApiResponse(responseCode = "406", description = "The uploaded file is not a valid SCORM package")
+	@Consumes(MediaType.MULTIPART_FORM_DATA)
+	@Produces({MediaType.APPLICATION_XML, MediaType.APPLICATION_JSON})
+	public Response attachScormPost(@PathParam("courseId") Long courseId,
+	        @Context HttpServletRequest request) {
+
+	    MultipartReader reader = null;
+
+	    try {
+	        ICourse course = CoursesWebService.loadCourse(courseId);
+	        if (course == null) {
+	            return Response.status(Status.NOT_FOUND).build();
+	        }
+
+	        if (!isAuthorEditor(course, request)) {
+	            return Response.status(Status.FORBIDDEN).build();
+	        }
+
+	        reader = new MultipartReader(request);
+
+	        String parentNodeId = reader.getValue("parentNodeId");
+	        Integer position = reader.getIntegerValue("position");
+
+	        String shortTitle = reader.getValue("shortTitle");
+	        String longTitle = reader.getValue("longTitle");
+	        String description = reader.getValue("description");
+	        String objectives = reader.getValue("objectives");
+	        String instruction = reader.getValue("instruction");
+	        String instructionalDesign = reader.getValue("instructionalDesign");
+	        String visibilityExpertRules = reader.getValue("visibilityExpertRules");
+	        String accessExpertRules = reader.getValue("accessExpertRules");
+
+	        File uploadedFile = reader.getFile();
+
+	        if (!uploadedFile.exists() || uploadedFile.length() <= 0) {
+	            return Response.status(Status.BAD_REQUEST)
+	                    .entity("SCORM file part was received but is empty")
+	                    .build();
+	        }
+
+	        String filename = reader.getValue("filename");
+	        if (!StringHelper.containsNonWhitespace(filename)) {
+	            filename = reader.getFilename();
+	        }
+	        if (!StringHelper.containsNonWhitespace(filename)) {
+	            filename = uploadedFile.getName();
+	        }
+
+	        if (!StringHelper.containsNonWhitespace(shortTitle)) {
+	            shortTitle = filename;
+	        }
+
+	        if (!StringHelper.containsNonWhitespace(longTitle)) {
+	            longTitle = shortTitle;
+	        }
+
+	        RepositoryHandler handler = RepositoryHandlerFactory.getInstance()
+	                .getRepositoryHandler(ScormCPFileResource.TYPE_NAME);
+
+	        if (handler == null || !handler.supportImport()) {
+	            return Response.status(Status.NOT_ACCEPTABLE)
+	                    .entity("SCORM import handler not available")
+	                    .build();
+	        }
+
+	        ResourceEvaluation evaluation = handler.acceptImport(uploadedFile, filename);
+	        if (evaluation == null || !evaluation.isValid()) {
+	            return Response.status(Status.NOT_ACCEPTABLE)
+	                    .entity("Invalid SCORM package")
+	                    .build();
+	        }
+
+	        String displayName = StringHelper.containsNonWhitespace(evaluation.getDisplayname())
+	                ? evaluation.getDisplayname()
+	                : shortTitle;
+
+	        Organisation organisation = CoreSpringFactory.getImpl(OrganisationService.class)
+	                .getDefaultOrganisation();
+	        
+	        Identity identity = getUserRequest(request).getIdentity();
+
+	        RepositoryEntry scormRepoEntry = handler.importResource(
+	                identity,
+	                null,
+	                displayName,
+	                description == null ? "" : description,
+	                RepositoryEntryImportExportLinkEnum.NONE,
+	                organisation,
+	                getUserRequest(request).getLocale(),
+	                uploadedFile,
+	                filename
+	        );
+
+	        if (scormRepoEntry == null) {
+	            return Response.serverError()
+	                    .entity("SCORM import failed")
+	                    .build();
+	        }
+
+	        RepositoryManager.getInstance().triggerIndexer(scormRepoEntry);
+
+	        CustomConfigDelegate config = new ScormCustomConfig(scormRepoEntry);
+
+	        return attach(courseId, parentNodeId, ScormCourseNode.TYPE, position,
+	                shortTitle, longTitle, description, objectives,
+	                instruction, instructionalDesign,
+	                visibilityExpertRules, accessExpertRules,
+	                config, request);
+
+	    } catch (Exception e) {
+	        log.error("Error while importing and attaching SCORM package", e);
+	        return Response.serverError().entity(e.getMessage()).build();
+	    } finally {
+	        MultipartReader.closeQuietly(reader);
+	    }
 	}
 	
 	/**
@@ -2150,6 +2283,30 @@ public class CourseElementWebService extends AbstractCourseNodeWebService {
 		FullConfigDelegate delegate = new TestReportFullConfig(config);
 		attachNodeConfig(courseId, nodeId, delegate, request);
 		return getTestReportConfiguration(courseId, nodeId, request);
+	}
+	
+	public class ScormCustomConfig implements CustomConfigDelegate {
+
+	    private final RepositoryEntry scormRepoEntry;
+
+	    public ScormCustomConfig(RepositoryEntry scormRepoEntry) {
+	        this.scormRepoEntry = scormRepoEntry;
+	    }
+
+	    @Override
+	    public boolean isValid() {
+	        return scormRepoEntry != null;
+	    }
+
+	    @Override
+	    public void configure(ICourse course, CourseNode newNode,
+	            ModuleConfiguration moduleConfig, Identity doer) {
+
+	        newNode.updateModuleConfigDefaults(true, null, NodeAccessType.of(course), doer);
+	        newNode.setDisplayOption(CourseNode.DISPLAY_OPTS_TITLE_DESCRIPTION_CONTENT);
+
+	        ScormEditController.setScormCPReference(scormRepoEntry, moduleConfig);
+	    }
 	}
 	
 	public class ExternalPageCustomConfig implements CustomConfigDelegate {
