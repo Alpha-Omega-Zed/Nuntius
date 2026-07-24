@@ -241,32 +241,6 @@ public class CourseResourceFolderWebService {
 	 * @return 
 	 */
 	@POST
-	@Path("coursescorm")
-	@Operation(summary = "This imports the uploaded scorm to the supplied course id", description = "This imports the uploaded scorm to the supplied course id")
-	@ApiResponse(responseCode = "200", description = "The scorm is correctly imported")
-	@ApiResponse(responseCode = "401", description = "The roles of the authenticated user are not sufficient")
-	@ApiResponse(responseCode = "404", description = "The course or course node not found")
-	@ApiResponse(responseCode = "406", description = "The course node is not acceptable to copy a file")
-	@Consumes(MediaType.MULTIPART_FORM_DATA)
-	public Response attachSCORMToCoursePost(
-			@PathParam("courseId") 			Long courseId,
-			@QueryParam("parentNodeId") 	String parentNodeId,
-			@QueryParam("shortTitle") 		String shortTitle,
-			@QueryParam("longTitle") 		@DefaultValue("undefined") String longTitle,
-			@Context HttpServletRequest request) {
-		return Response.ok().build();
-	}
-
-	/**
-	 * This attaches the uploaded file(s) to the supplied folder id.
-	 * 
-	 * @param courseId The course resourceable's id
-	 * @param filename The filename
-	 * @param file The file resource to upload
-	 * @param request The HTTP request
-	 * @return 
-	 */
-	@POST
 	@Path("coursefolder")
 	@Operation(summary = "This attaches the uploaded file(s) to the supplied folder id", description = "This attaches the uploaded file(s) to the supplied folder id")
 	@ApiResponse(responseCode = "200", description = "The file is correctly saved")
