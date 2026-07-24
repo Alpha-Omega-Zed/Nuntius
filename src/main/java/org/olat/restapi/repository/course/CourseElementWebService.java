@@ -176,54 +176,110 @@ public class CourseElementWebService extends AbstractCourseNodeWebService {
 	
 	@POST
 	@Path("scorm")
-	@Operation(summary = "Attach SCORM element to course", description = "Imports a SCORM ZIP and attaches it as a SCORM course element.")
+	@Operation(
+	        summary = "Attach SCORM element to course",
+	        description = "Imports a SCORM ZIP and attaches it as a SCORM course element."
+	)
 	@ApiResponse(responseCode = "200", description = "The SCORM course node metadata")
-	@ApiResponse(responseCode = "401", description = "The roles of the authenticated user are not sufficient")
-	@ApiResponse(responseCode = "404", description = "The course or parentNode not found")
+	@ApiResponse(responseCode = "400", description = "The multipart request is malformed or the uploaded file is empty")
+	@ApiResponse(responseCode = "403", description = "The authenticated user is not allowed to edit the course")
+	@ApiResponse(responseCode = "404", description = "The course or parent node was not found")
 	@ApiResponse(responseCode = "406", description = "The uploaded file is not a valid SCORM package")
+	@ApiResponse(responseCode = "500", description = "An unexpected error occurred while importing the SCORM package")
 	@Consumes(MediaType.MULTIPART_FORM_DATA)
-	@Produces({MediaType.APPLICATION_XML, MediaType.APPLICATION_JSON})
-	public Response attachScormPost(@PathParam("courseId") Long courseId,
+	@Produces({
+	        MediaType.APPLICATION_XML,
+	        MediaType.APPLICATION_JSON
+	})
+	public Response attachScormPost(
+	        @PathParam("courseId") Long courseId,
 	        @Context HttpServletRequest request) {
 
 	    MultipartReader reader = null;
 
 	    try {
 	        ICourse course = CoursesWebService.loadCourse(courseId);
+
 	        if (course == null) {
-	            return Response.status(Status.NOT_FOUND).build();
-	        }
-
-	        if (!isAuthorEditor(course, request)) {
-	            return Response.status(Status.FORBIDDEN).build();
-	        }
-
-	        reader = new MultipartReader(request);
-
-	        String parentNodeId = reader.getValue("parentNodeId");
-	        Integer position = reader.getIntegerValue("position");
-
-	        String shortTitle = reader.getValue("shortTitle");
-	        String longTitle = reader.getValue("longTitle");
-	        String description = reader.getValue("description");
-	        String objectives = reader.getValue("objectives");
-	        String instruction = reader.getValue("instruction");
-	        String instructionalDesign = reader.getValue("instructionalDesign");
-	        String visibilityExpertRules = reader.getValue("visibilityExpertRules");
-	        String accessExpertRules = reader.getValue("accessExpertRules");
-
-	        File uploadedFile = reader.getFile();
-
-	        if (!uploadedFile.exists() || uploadedFile.length() <= 0) {
-	            return Response.status(Status.BAD_REQUEST)
-	                    .entity("SCORM file part was received but is empty")
+	            return Response.status(Status.NOT_FOUND)
+	                    .entity("Course not found")
 	                    .build();
 	        }
 
-	        String filename = reader.getValue("filename");
-	        if (!StringHelper.containsNonWhitespace(filename)) {
-	            filename = reader.getFilename();
+	        if (!isAuthorEditor(course, request)) {
+	            return Response.status(Status.FORBIDDEN)
+	                    .entity("You are not allowed to edit this course")
+	                    .build();
 	        }
+
+	        String parentNodeId;
+	        Integer position;
+	        String shortTitle;
+	        String longTitle;
+	        String description;
+	        String objectives;
+	        String instruction;
+	        String instructionalDesign;
+	        String visibilityExpertRules;
+	        String accessExpertRules;
+	        String filename;
+	        File uploadedFile;
+
+	        /*
+	         * Multipart parsing is isolated so malformed request data is returned
+	         * as HTTP 400 instead of being treated as an internal server error.
+	         */
+	        try {
+	            reader = new MultipartReader(request);
+
+	            parentNodeId = reader.getValue("parentNodeId");
+	            position = reader.getIntegerValue("position");
+
+	            shortTitle = reader.getValue("shortTitle");
+	            longTitle = reader.getValue("longTitle");
+	            description = reader.getValue("description");
+	            objectives = reader.getValue("objectives");
+	            instruction = reader.getValue("instruction");
+	            instructionalDesign = reader.getValue("instructionalDesign");
+	            visibilityExpertRules = reader.getValue("visibilityExpertRules");
+	            accessExpertRules = reader.getValue("accessExpertRules");
+
+	            uploadedFile = reader.getFile();
+
+	            filename = reader.getValue("filename");
+	            if (!StringHelper.containsNonWhitespace(filename)) {
+	                filename = reader.getFilename();
+	            }
+	        } catch (Exception e) {
+	            log.warn("Invalid multipart request for SCORM import", e);
+
+	            return Response.status(Status.BAD_REQUEST)
+	                    .entity("Malformed multipart request")
+	                    .build();
+	        }
+	        
+	        /*
+	         * getFile() may return null when the multipart request contains no
+	         * valid file part.
+	         */
+	        if (uploadedFile == null) {
+	            return Response.status(Status.BAD_REQUEST)
+	                    .entity("No SCORM file was uploaded")
+	                    .build();
+	        }
+
+	        if (!uploadedFile.exists() || !uploadedFile.isFile()) {
+	            return Response.status(Status.BAD_REQUEST)
+	                    .entity("The uploaded SCORM file could not be read")
+	                    .build();
+	        }
+	        
+	        if (uploadedFile.length() <= 0) {
+	            return Response.status(Status.BAD_REQUEST)
+	                    .entity("The uploaded SCORM file is empty")
+	                    .build();
+	        }
+
 	        if (!StringHelper.containsNonWhitespace(filename)) {
 	            filename = uploadedFile.getName();
 	        }
@@ -245,10 +301,21 @@ public class CourseElementWebService extends AbstractCourseNodeWebService {
 	                    .build();
 	        }
 
-	        ResourceEvaluation evaluation = handler.acceptImport(uploadedFile, filename);
+	        ResourceEvaluation evaluation;
+
+	        try {
+	            evaluation = handler.acceptImport(uploadedFile, filename);
+	        } catch (Exception e) {
+	            log.warn("SCORM package validation failed: {}", filename, e);
+
+	            return Response.status(Status.NOT_ACCEPTABLE)
+	                    .entity("The uploaded file is not a valid SCORM package")
+	                    .build();
+	        }
+	        
 	        if (evaluation == null || !evaluation.isValid()) {
 	            return Response.status(Status.NOT_ACCEPTABLE)
-	                    .entity("Invalid SCORM package")
+	                    .entity("The uploaded file is not a valid SCORM package")
 	                    .build();
 	        }
 
@@ -274,6 +341,8 @@ public class CourseElementWebService extends AbstractCourseNodeWebService {
 	        );
 
 	        if (scormRepoEntry == null) {
+	            log.error("SCORM repository import returned null for file: {}", filename);
+
 	            return Response.serverError()
 	                    .entity("SCORM import failed")
 	                    .build();
@@ -290,7 +359,11 @@ public class CourseElementWebService extends AbstractCourseNodeWebService {
 	                config, request);
 
 	    } catch (Exception e) {
-	        log.error("Error while importing and attaching SCORM package", e);
+	        log.error(
+	                "Unexpected error while importing and attaching a SCORM package to course {}",
+	                courseId,
+	                e
+            );
 	        return Response.serverError().entity(e.getMessage()).build();
 	    } finally {
 	        MultipartReader.closeQuietly(reader);
